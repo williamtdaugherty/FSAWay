@@ -8,6 +8,7 @@ var fsaWayPageApp;
             }
             return IndexController;
         })();
+        angular.module('fsaWayPageApp').controller('IndexController', IndexController);
         var AboutController = (function () {
             function AboutController() {
                 this.message = 'This is the about page';
@@ -66,4 +67,3 @@ var fsaWayPageApp;
         angular.module('fsaWayPageApp').controller('PersbalanceController', PersbalanceController);
     })(Controllers = fsaWayPageApp.Controllers || (fsaWayPageApp.Controllers = {}));
 })(fsaWayPageApp || (fsaWayPageApp = {}));
-//# sourceMappingURL=controllers.js.map

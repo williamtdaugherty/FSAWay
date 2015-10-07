@@ -7,7 +7,7 @@
             public $route: ng.route.IRouteService
         ) { }
     }
-
+    angular.module('fsaWayPageApp').controller('IndexController', IndexController);
 
     class AboutController {
         message = 'This is the about page';

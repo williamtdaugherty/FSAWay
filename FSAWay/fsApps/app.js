@@ -1,9 +1,14 @@
 var fsaWayPageApp;
 (function (fsaWayPageApp) {
     angular.module('fsaWayPageApp', ['ngRoute']).config(function ($routeProvider, $locationProvider) {
+        debugger;
         $routeProvider
+            .when('/', {
+            templateUrl: '/fsApps/home.html',
+            controller: 'IndexController as vm'
+        })
             .when('/index', {
-            templateUrl: '/fsApps/index.cshtml',
+            templateUrl: '/fsApps/home.html',
             controller: 'IndexController as vm'
         })
             .when('/about', {
@@ -38,8 +43,7 @@ var fsaWayPageApp;
             templateUrl: '/fsApps/persbalance.html',
             controller: 'PersbalanceController as vm'
         })
-            .otherwise('/');
+            .otherwise('/fsApps/notfound.html');
         $locationProvider.html5Mode(true);
     });
 })(fsaWayPageApp || (fsaWayPageApp = {}));
-//# sourceMappingURL=app.js.map
