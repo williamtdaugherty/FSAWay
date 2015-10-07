@@ -1,8 +1,8 @@
-﻿namespace fsaWayPageApp {
+﻿namespace fsaWayPageApp.Controllers {
 
 
 
-    class MainController {
+    class IndexController {
         constructor(
             public $route: ng.route.IRouteService
         ) { }

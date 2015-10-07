@@ -4,48 +4,56 @@
         
 
             $routeProvider
-                .when('/', {
-                    templateUrl: '/fsApps/about.html',
-                    controller: 'AboutController as vm'
+                .when('/index', {
+                    templateUrl: '/fsApps/index.cshtml',
+                    controller: 'IndexController as vm'
 
                 })
-                .when('/', {
+
+                .when('/about', {
+                    templateUrl: '/fsApps/about.html',
+                    controller: 'SupportController as vm'
+
+                })
+
+
+                .when('/support', {
                     templateUrl: '/fsApps/support.html',
                     controller: 'SupportController as vm'
 
                 })
 
-                .when('/', {
+                .when('/login', {
                     templateUrl: '/fsApps/login.html',
                     controller: 'LoginController as vm'
 
                 })
 
-                .when('/', {
+                .when('/registration', {
                     templateUrl: '/fsApps/registration.html',
                     controller: 'RegistrationController as vm'
 
                 })
 
-                .when('/', {
+                .when('/terms', {
                     templateUrl: '/fsApps/terms.html',
                     controller: 'TermsController as vm'
 
                 })
 
-                .when('/', {
+                .when('/products', {
                     templateUrl: '/fsApps/products.html',
                     controller: 'ProductsController as vm'
 
                 })
 
-                .when('/', {
+                .when('/fsacheck', {
                     templateUrl: '/fsApps/fsacheck.html',
                     controller: 'FSAcheckController as vm'
 
                 })
 
-                .when('/', {
+                .when('/persbalance', {
                     templateUrl: '/fsApps/persbalance.html',
                     controller: 'PersbalanceController as vm'
 

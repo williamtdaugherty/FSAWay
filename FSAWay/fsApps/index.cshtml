@@ -3,7 +3,7 @@
 }
 
 
-<html ng-app="fsaWayPageApp">
+<html xmlns ng-app="fsaWayPageApp">
 <head>
     <title></title>
 	
@@ -14,13 +14,17 @@
 
 
 </head>
-<body ng-controller="MainController as main">
+<body ng-controller="IndexController as index">
     @DateTime.Now.ToLongTimeString()
 
     <h1>FSAWay Skeleton Outline</h1>
 
     <a href="/about">About Page</a> |<a href="/support">Support Page</a> | <a href="/login">Login Page</a> | <a href="/registration">Registration Page</a> | <a href="/terms">Terms Page</a> |
     <a href="/products">Products Page</a> | <a href="fsacheck">FSACheck Page</a> | <a href="/persbalance">Personal Balance Page</a>
+
+    @*<hr />
+    $route.current.templateUrl = {{main.$route.current.templateUrl}}
+    <hr/>*@
 
     <ng-view></ng-view>
 
