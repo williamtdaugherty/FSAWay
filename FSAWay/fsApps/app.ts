@@ -1,5 +1,10 @@
 ﻿namespace fsaWayPageApp {
 
+    //Start FSAWay app.ts script//
+
+
+
+//Angular Material Nav//
 
    let app = angular.module('StarterApp', ['ngMaterial']);
 
@@ -10,6 +15,9 @@
 
     }])
 
+
+
+//Angular Material Page colors//
 
     app.config(function ($mdThemingProvider) {
         let customBlueMap = $mdThemingProvider.extendPalette('light-blue', {
@@ -28,9 +36,7 @@
             .primaryPalette('grey')
     })
 
-
-
-
+//Page routing//
 
     angular.module('fsaWayPageApp', ['ngRoute']).config(($routeProvider: ng.route.IRouteProvider, $locationProvider: ng.ILocationProvider) => {
 

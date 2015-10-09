@@ -14,6 +14,8 @@
     //request.send();
 
 
+//Ajax Mockaroo DB//
+
     const webAPIURL = 'https://www.mockaroo.com/1feebdf0/download?count=100&key=cbd19840';
 
     class ProductListController {
@@ -33,7 +35,7 @@
         ('ProductListController', ProductListController);
 }
 
-
+//FSAWay page controllers//
 
     class IndexController {
         constructor(

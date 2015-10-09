@@ -9,6 +9,7 @@ var fsaWayPageApp;
         //    console.dir(productlist);
         //});
         //request.send();
+        //Ajax Mockaroo DB//
         var webAPIURL = 'https://www.mockaroo.com/1feebdf0/download?count=100&key=cbd19840';
         var ProductListController = (function () {
             function ProductListController($http) {
@@ -23,6 +24,7 @@ var fsaWayPageApp;
         angular.module('fsaWayPageApp').controller('ProductListController', ProductListController);
     })(Controllers = fsaWayPageApp.Controllers || (fsaWayPageApp.Controllers = {}));
 })(fsaWayPageApp || (fsaWayPageApp = {}));
+//FSAWay page controllers//
 var IndexController = (function () {
     function IndexController($route) {
         this.$route = $route;

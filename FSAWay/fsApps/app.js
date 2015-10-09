@@ -1,11 +1,14 @@
 var fsaWayPageApp;
 (function (fsaWayPageApp) {
+    //Start FSAWay app.ts script//
+    //Angular Material Nav//
     var app = angular.module('StarterApp', ['ngMaterial']);
     app.controller('AppCtrl', ['$scope', '$mdSidenav', function ($scope, $mdSidenav) {
             $scope.toggleSidenav = function (menuId) {
                 $mdSidenav(menuId).toggle();
             };
         }]);
+    //Angular Material Page colors//
     app.config(function ($mdThemingProvider) {
         var customBlueMap = $mdThemingProvider.extendPalette('light-blue', {
             'contrastDefaultColor': 'light',
@@ -22,6 +25,7 @@ var fsaWayPageApp;
         $mdThemingProvider.theme('input', 'default')
             .primaryPalette('grey');
     });
+    //Page routing//
     angular.module('fsaWayPageApp', ['ngRoute']).config(function ($routeProvider, $locationProvider) {
         $routeProvider
             .when('/', {

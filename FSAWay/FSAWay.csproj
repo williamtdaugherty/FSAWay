@@ -232,11 +232,10 @@
     <Content Include="fsApps\about.html" />
     <Content Include="fsApps\fsacheck.html" />
     <Content Include="fsApps\home.html" />
-    <Content Include="fsApps\login.html" />
+    <Content Include="fsApps\signup.html" />
     <Content Include="fsApps\notfound.html" />
     <Content Include="fsApps\persbalance.html" />
     <Content Include="fsApps\products.html" />
-    <Content Include="fsApps\registration.html" />
     <Content Include="fsApps\support.html" />
     <Content Include="fsApps\terms.html" />
     <Content Include="Global.asax" />
