@@ -1,6 +1,39 @@
 ﻿namespace fsaWayPageApp.Controllers {
 
 
+    //let request = new XMLHttpRequest();
+
+    //request.open('GET', 'https://www.mockaroo.com/1feebdf0/download?count=100&key=cbd19840');
+
+    //request.addEventListener('load', function (e) {
+    //    let productlist = JSON.parse(request.responseText);
+    //    console.dir(productlist);
+
+    //});
+
+    //request.send();
+
+
+    const webAPIURL = 'https://www.mockaroo.com/1feebdf0/download?count=100&key=cbd19840';
+
+    class ProductListController {
+
+        public products;
+
+        constructor(private $http: ng.IHttpService) {
+            $http.get(webAPIURL + 'products').success((data) => {
+                this.products = data;
+            });
+
+        }
+    }
+
+
+    angular.module('fsaWayPageApp').controller
+        ('ProductListController', ProductListController);
+}
+
+
 
     class IndexController {
         constructor(

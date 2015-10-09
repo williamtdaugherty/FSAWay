@@ -1,0 +1,504 @@
+﻿[
+  {
+    "sku#": "972494287-2",
+    "Item": "Dextromethorphan HBr, Guaifenesin and Pseudoephedrine HCl",
+    "Price": "$290.07"
+  },
+  {
+    "sku#": "732793539-8",
+    "Item": "Acetaminophen, Doxylamine succinate, and Phenylephrine Hydrochloride",
+    "Price": "$237.50"
+  },
+  {
+    "sku#": "139924972-X",
+    "Item": "Benzethonium Chloride",
+    "Price": "$106.95"
+  },
+  {
+    "sku#": "773624750-1",
+    "Item": "spironolactone",
+    "Price": "$177.15"
+  },
+  {
+    "sku#": "013698286-7",
+    "Item": "silodosin",
+    "Price": "$143.07"
+  },
+  {
+    "sku#": "695213590-1",
+    "Item": "Tretinoin",
+    "Price": "$285.25"
+  },
+  {
+    "sku#": "183277086-9",
+    "Item": "octinoxate, octocrylene, oxybenzone, zinc oxide",
+    "Price": "$38.90"
+  },
+  {
+    "sku#": "066565976-8",
+    "Item": "Menthol",
+    "Price": "$100.87"
+  },
+  {
+    "sku#": "605743940-6",
+    "Item": "Propranolol Hydrochloride",
+    "Price": "$186.35"
+  },
+  {
+    "sku#": "286717474-0",
+    "Item": "Titanium Dioxide, Octinoxate and Octocrylene",
+    "Price": "$292.91"
+  },
+  {
+    "sku#": "271824366-X",
+    "Item": "Allium cepa, Ambrosia artemisiaefolia, Apis mellifica",
+    "Price": "$22.66"
+  },
+  {
+    "sku#": "513191506-6",
+    "Item": "Desloratadine",
+    "Price": "$298.02"
+  },
+  {
+    "sku#": "003476576-X",
+    "Item": "LIDOCAINE HYDROCHLORIDE",
+    "Price": "$114.86"
+  },
+  {
+    "sku#": "192725198-2",
+    "Item": "Methylprednisolone",
+    "Price": "$155.87"
+  },
+  {
+    "sku#": "365387232-4",
+    "Item": "MAGNESIUM SULFATE",
+    "Price": "$257.26"
+  },
+  {
+    "sku#": "946258205-X",
+    "Item": "brompheniramine maleate, dextromethorphan HBr, phenylephrine HCl",
+    "Price": "$262.87"
+  },
+  {
+    "sku#": "276695021-4",
+    "Item": "Dextromethorphan HBr, Guaifenesin",
+    "Price": "$270.56"
+  },
+  {
+    "sku#": "496831067-6",
+    "Item": "Enalapril Maleate",
+    "Price": "$157.85"
+  },
+  {
+    "sku#": "178527071-0",
+    "Item": "Menthol, Methyl salicylate",
+    "Price": "$91.42"
+  },
+  {
+    "sku#": "142776980-X",
+    "Item": "Hog Epithelium",
+    "Price": "$189.40"
+  },
+  {
+    "sku#": "312497155-8",
+    "Item": "OXYGEN",
+    "Price": "$265.76"
+  },
+  {
+    "sku#": "723703697-1",
+    "Item": "Dextromethorphan Hydrobromide, Doxylamine Succinate",
+    "Price": "$282.62"
+  },
+  {
+    "sku#": "413542697-2",
+    "Item": "Dextrose Monohydrate Injection, Solution",
+    "Price": "$282.78"
+  },
+  {
+    "sku#": "744673249-0",
+    "Item": "Artemisia Vulgaris, Filix Mas, Cina, Melilotus Officinalis,",
+    "Price": "$58.99"
+  },
+  {
+    "sku#": "513694362-9",
+    "Item": "spironolactone",
+    "Price": "$30.77"
+  },
+  {
+    "sku#": "878869324-4",
+    "Item": "Diclofenac Potassium",
+    "Price": "$281.64"
+  },
+  {
+    "sku#": "519936849-4",
+    "Item": "Isosorbide Mononitrate",
+    "Price": "$113.38"
+  },
+  {
+    "sku#": "925045383-3",
+    "Item": "Avobenzone, Homosalate, Octisalate, Octocrylene, and Oxybenzone",
+    "Price": "$114.24"
+  },
+  {
+    "sku#": "399300725-5",
+    "Item": "meperidine hydrochloride",
+    "Price": "$36.59"
+  },
+  {
+    "sku#": "997533654-X",
+    "Item": "PROPOFOL",
+    "Price": "$179.20"
+  },
+  {
+    "sku#": "530747074-6",
+    "Item": "Erythromycin",
+    "Price": "$265.04"
+  },
+  {
+    "sku#": "489928828-X",
+    "Item": "estramustine phosphate sodium",
+    "Price": "$259.05"
+  },
+  {
+    "sku#": "514973845-X",
+    "Item": "Divalproex Sodium",
+    "Price": "$29.47"
+  },
+  {
+    "sku#": "739616427-3",
+    "Item": "risperidone",
+    "Price": "$137.44"
+  },
+  {
+    "sku#": "523972458-X",
+    "Item": "Carbidopa and Levodopa",
+    "Price": "$77.48"
+  },
+  {
+    "sku#": "124622679-0",
+    "Item": "Metoclopramide Hydrochloride",
+    "Price": "$130.96"
+  },
+  {
+    "sku#": "674907743-9",
+    "Item": "Cyclobenzaprine Hydrochloride",
+    "Price": "$69.12"
+  },
+  {
+    "sku#": "070656392-1",
+    "Item": "ibuprofen and pseudoephedrine hydrochloride",
+    "Price": "$229.11"
+  },
+  {
+    "sku#": "692536566-7",
+    "Item": "Diltiazem Hydrochloride",
+    "Price": "$102.85"
+  },
+  {
+    "sku#": "892767012-4",
+    "Item": "BENZOYL PEROXIDE",
+    "Price": "$241.89"
+  },
+  {
+    "sku#": "697255160-9",
+    "Item": "METOCLOPRAMIDE HYDROCHLORIDE",
+    "Price": "$108.16"
+  },
+  {
+    "sku#": "790213188-1",
+    "Item": "BENZETHONIUM CHLORIDE",
+    "Price": "$112.94"
+  },
+  {
+    "sku#": "024108635-3",
+    "Item": "Ibuprofen",
+    "Price": "$100.01"
+  },
+  {
+    "sku#": "613346356-2",
+    "Item": "Prednisolone",
+    "Price": "$230.19"
+  },
+  {
+    "sku#": "366637563-4",
+    "Item": "Docusate Sodium",
+    "Price": "$33.12"
+  },
+  {
+    "sku#": "968985486-0",
+    "Item": "Albuterol Sulfate",
+    "Price": "$2.07"
+  },
+  {
+    "sku#": "096354394-6",
+    "Item": "levothyroxine sodium",
+    "Price": "$89.10"
+  },
+  {
+    "sku#": "715744332-5",
+    "Item": "Metformin Hydrochloride",
+    "Price": "$154.65"
+  },
+  {
+    "sku#": "577232741-0",
+    "Item": "Clarithromycin",
+    "Price": "$252.75"
+  },
+  {
+    "sku#": "341719121-1",
+    "Item": "CISplatin",
+    "Price": "$132.81"
+  },
+  {
+    "sku#": "610870935-9",
+    "Item": "Zinc Oxide",
+    "Price": "$166.66"
+  },
+  {
+    "sku#": "675972416-X",
+    "Item": "CHLORPROMAZINE HYDROCHLORIDE",
+    "Price": "$114.90"
+  },
+  {
+    "sku#": "482868254-6",
+    "Item": "PENTAZOCINE HYDROCHLORIDE AND NALOXONE HYDROCHLORIDE",
+    "Price": "$166.68"
+  },
+  {
+    "sku#": "022098239-2",
+    "Item": "Ziprasidone Hydrochloride",
+    "Price": "$233.59"
+  },
+  {
+    "sku#": "561740694-9",
+    "Item": "Acetaminophen",
+    "Price": "$56.73"
+  },
+  {
+    "sku#": "866241588-1",
+    "Item": "Octinoxate and Oxybenzone",
+    "Price": "$213.13"
+  },
+  {
+    "sku#": "786257458-3",
+    "Item": "ZINC OXIDE",
+    "Price": "$234.79"
+  },
+  {
+    "sku#": "171411672-7",
+    "Item": "Oxygen",
+    "Price": "$108.36"
+  },
+  {
+    "sku#": "653853344-2",
+    "Item": "Fluoride",
+    "Price": "$84.67"
+  },
+  {
+    "sku#": "017864651-2",
+    "Item": "Doxycycline Hyclate",
+    "Price": "$59.74"
+  },
+  {
+    "sku#": "488721616-5",
+    "Item": "Pramipexole Dihydrochloride",
+    "Price": "$75.73"
+  },
+  {
+    "sku#": "464217309-9",
+    "Item": "SODIUM CHLORIDE",
+    "Price": "$289.84"
+  },
+  {
+    "sku#": "331390552-8",
+    "Item": "Ondansetron",
+    "Price": "$108.18"
+  },
+  {
+    "sku#": "432758452-5",
+    "Item": "Diphenhydramine Hydrochloride",
+    "Price": "$85.13"
+  },
+  {
+    "sku#": "253372080-1",
+    "Item": "Tranexamic Acid",
+    "Price": "$182.30"
+  },
+  {
+    "sku#": "784636070-1",
+    "Item": "Bisoprolol Fumarate",
+    "Price": "$232.67"
+  },
+  {
+    "sku#": "411351471-2",
+    "Item": "Ibuprofen",
+    "Price": "$100.80"
+  },
+  {
+    "sku#": "895692952-1",
+    "Item": "avobenzone, homosalate, octisalate, octocrylene",
+    "Price": "$13.62"
+  },
+  {
+    "sku#": "588139259-0",
+    "Item": "Magnesium Sulfate",
+    "Price": "$52.27"
+  },
+  {
+    "sku#": "490858808-2",
+    "Item": "Homosalate, Octinoxate, Octisalate, Oxybenzone, and Titanium Dioxide",
+    "Price": "$155.66"
+  },
+  {
+    "sku#": "645853852-9",
+    "Item": "Loperamide HCl",
+    "Price": "$143.13"
+  },
+  {
+    "sku#": "149938434-3",
+    "Item": "Pyridostigmine Bromide",
+    "Price": "$111.21"
+  },
+  {
+    "sku#": "213172048-3",
+    "Item": "Acetaminophen, Chlorpheniramine maleate, Dextromethorphan HBr, Phenylephrine HCl",
+    "Price": "$78.33"
+  },
+  {
+    "sku#": "813071652-6",
+    "Item": "Bismuthum metallicum, Antimon.crud., Arg. nit., Arsenicum alb., Baptisia, Bryonia, Chamomilla, Cinchona, Iris versicolor, Kali bic., Lachesis, Lycopodium, Mag. carb., Nux vom., Phosphorus, Podoph. pelt., Pulsatilla, Raphanus, Rhus toxicodendron, Tabacum, Verbascum, Zingiber, Echinacea, Juglans regia.",
+    "Price": "$151.79"
+  },
+  {
+    "sku#": "663203107-2",
+    "Item": "Metoprolol Tartrate",
+    "Price": "$77.00"
+  },
+  {
+    "sku#": "525390158-2",
+    "Item": "salicylic acid",
+    "Price": "$27.68"
+  },
+  {
+    "sku#": "898608430-9",
+    "Item": "carbidopa, levodopa and entacapone",
+    "Price": "$258.19"
+  },
+  {
+    "sku#": "636709858-5",
+    "Item": "DOCUSATE SODIUM",
+    "Price": "$287.40"
+  },
+  {
+    "sku#": "209983790-2",
+    "Item": "levetiracetam",
+    "Price": "$125.86"
+  },
+  {
+    "sku#": "546022099-8",
+    "Item": "PHENYLEPHRINE HYDROCHLORIDE",
+    "Price": "$191.21"
+  },
+  {
+    "sku#": "900271791-1",
+    "Item": "Cefadroxil",
+    "Price": "$231.16"
+  },
+  {
+    "sku#": "554259029-2",
+    "Item": "Hydrocortisone Valerate",
+    "Price": "$172.28"
+  },
+  {
+    "sku#": "866933917-X",
+    "Item": "clobetasol propionate",
+    "Price": "$217.47"
+  },
+  {
+    "sku#": "686522966-5",
+    "Item": "SODIUM SULFACETAMIDE",
+    "Price": "$147.74"
+  },
+  {
+    "sku#": "767786424-4",
+    "Item": "Dextromethorphan HBr, Guaifenesin",
+    "Price": "$259.55"
+  },
+  {
+    "sku#": "121977232-1",
+    "Item": "Hydrocortisone",
+    "Price": "$186.52"
+  },
+  {
+    "sku#": "456729688-5",
+    "Item": "Clorazepate Dipotassium",
+    "Price": "$184.36"
+  },
+  {
+    "sku#": "535491930-4",
+    "Item": "Sodium fluoride",
+    "Price": "$44.30"
+  },
+  {
+    "sku#": "049871671-6",
+    "Item": "OCTINOXATE, TITANIUM DIOXIDE, OXYBENZONE",
+    "Price": "$133.91"
+  },
+  {
+    "sku#": "631897618-3",
+    "Item": "GLYCERIN",
+    "Price": "$116.00"
+  },
+  {
+    "sku#": "115378782-2",
+    "Item": "Fentanyl",
+    "Price": "$48.44"
+  },
+  {
+    "sku#": "067550799-5",
+    "Item": "Avobenzone, Homosalate, Octisalate and Octocrylene",
+    "Price": "$121.68"
+  },
+  {
+    "sku#": "199977776-X",
+    "Item": "Olanzapine",
+    "Price": "$203.96"
+  },
+  {
+    "sku#": "386923795-3",
+    "Item": "doxycycline",
+    "Price": "$7.35"
+  },
+  {
+    "sku#": "711329855-9",
+    "Item": "Potassium Chloride",
+    "Price": "$287.02"
+  },
+  {
+    "sku#": "058317274-1",
+    "Item": "Arizona Ash",
+    "Price": "$118.94"
+  },
+  {
+    "sku#": "314459392-3",
+    "Item": "prazosin hydrochloride",
+    "Price": "$279.75"
+  },
+  {
+    "sku#": "312650789-1",
+    "Item": "Pyrithione Zinc",
+    "Price": "$287.60"
+  },
+  {
+    "sku#": "333194184-0",
+    "Item": "FLUOXETINE HYDROCHLORIDE",
+    "Price": "$285.78"
+  },
+  {
+    "sku#": "056192487-2",
+    "Item": "dextromethorphan polistirex",
+    "Price": "$153.85"
+  }
+];
+
+
