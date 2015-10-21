@@ -2,38 +2,21 @@ var fsaWayPageApp;
 (function (fsaWayPageApp) {
     //Start FSAWay app.ts script//
     //Angular Material Nav//
-    var app = angular.module('StarterApp', ['ngMaterial']);
+    var app = angular.module('fsaWayPageApp', ['ngMaterial']);
     app.controller('AppCtrl', ['$scope', '$mdSidenav', function ($scope, $mdSidenav) {
             $scope.toggleSidenav = function (menuId) {
                 $mdSidenav(menuId).toggle();
             };
         }]);
-    //Angular Material Page colors//
-    app.config(function ($mdThemingProvider) {
-        var customBlueMap = $mdThemingProvider.extendPalette('light-blue', {
-            'contrastDefaultColor': 'light',
-            'contrastDarkColors': ['50'],
-            '50': 'ffffff'
-        });
-        $mdThemingProvider.definePalette('customBlue', customBlueMap);
-        $mdThemingProvider.theme('default')
-            .primaryPalette('customBlue', {
-            'default': '500',
-            'hue-1': '50'
-        })
-            .accentPalette('pink');
-        $mdThemingProvider.theme('input', 'default')
-            .primaryPalette('grey');
-    });
     //Page routing//
     angular.module('fsaWayPageApp', ['ngRoute']).config(function ($routeProvider, $locationProvider) {
         $routeProvider
             .when('/', {
-            templateUrl: '/fsApps/home.html',
+            templateUrl: '/fsApps/index.html',
             controller: 'IndexController as vm'
         })
             .when('/index', {
-            templateUrl: '/fsApps/home.html',
+            templateUrl: '/fsApps/index.html',
             controller: 'IndexController as vm'
         })
             .when('/about', {
@@ -72,3 +55,20 @@ var fsaWayPageApp;
         $locationProvider.html5Mode(true);
     });
 })(fsaWayPageApp || (fsaWayPageApp = {}));
+// email authentication form 
+angular.module('dynamicFormApp', [])
+    .controller('mainController', function ($scope) {
+    var users = [
+        {
+            name: 'Fred',
+            email: ''
+        },
+        {
+            name: 'Priya',
+            email: ''
+        }
+    ];
+    $scope.formDataTwo = {};
+    $scope.formDataTwo.users = users;
+});
+//# sourceMappingURL=app.js.map

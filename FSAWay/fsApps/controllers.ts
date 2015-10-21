@@ -103,4 +103,3 @@
 
     angular.module('fsaWayPageApp').controller('PersbalanceController', PersbalanceController);
 
-}

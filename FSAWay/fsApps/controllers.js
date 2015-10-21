@@ -88,3 +88,4 @@ var PersbalanceController = (function () {
     return PersbalanceController;
 })();
 angular.module('fsaWayPageApp').controller('PersbalanceController', PersbalanceController);
+//# sourceMappingURL=controllers.js.map
