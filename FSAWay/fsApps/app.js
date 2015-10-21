@@ -1,35 +1,20 @@
 var fsaWayPageApp;
 (function (fsaWayPageApp) {
-    //Start FSAWay app.ts script//
-    //Angular Material Nav//
-    var app = angular.module('fsaWayPageApp', ['ngMaterial']);
-    app.controller('AppCtrl', ['$scope', '$mdSidenav', function ($scope, $mdSidenav) {
-            $scope.toggleSidenav = function (menuId) {
-                $mdSidenav(menuId).toggle();
-            };
-        }]);
-    //Page routing//
-    angular.module('fsaWayPageApp', ['ngRoute']).config(function ($routeProvider, $locationProvider) {
+    angular.module('fsaWayPageApp', ['ngMaterial', 'ngRoute', 'ngResource']).config(function ($routeProvider, $locationProvider) {
+        //Page routing//
         $routeProvider
             .when('/', {
             templateUrl: '/fsApps/index.html',
-            controller: 'IndexController as vm'
-        })
-            .when('/index', {
-            templateUrl: '/fsApps/index.html',
-            controller: 'IndexController as vm'
+            controller: 'HomeController as vm'
         })
             .when('/about', {
             templateUrl: '/fsApps/about.html',
-            controller: 'SupportController as vm'
         })
             .when('/support', {
             templateUrl: '/fsApps/support.html',
-            controller: 'SupportController as vm'
         })
-            .when('/login', {
-            templateUrl: '/fsApps/login.html',
-            controller: 'LoginController as vm'
+            .when('/signup', {
+            templateUrl: '/fsApps/signup.html',
         })
             .when('/registration', {
             templateUrl: '/fsApps/registration.html',
@@ -37,7 +22,6 @@ var fsaWayPageApp;
         })
             .when('/terms', {
             templateUrl: '/fsApps/terms.html',
-            controller: 'TermsController as vm'
         })
             .when('/products', {
             templateUrl: '/fsApps/products.html',
@@ -55,20 +39,3 @@ var fsaWayPageApp;
         $locationProvider.html5Mode(true);
     });
 })(fsaWayPageApp || (fsaWayPageApp = {}));
-// email authentication form 
-angular.module('dynamicFormApp', [])
-    .controller('mainController', function ($scope) {
-    var users = [
-        {
-            name: 'Fred',
-            email: ''
-        },
-        {
-            name: 'Priya',
-            email: ''
-        }
-    ];
-    $scope.formDataTwo = {};
-    $scope.formDataTwo.users = users;
-});
-//# sourceMappingURL=app.js.map

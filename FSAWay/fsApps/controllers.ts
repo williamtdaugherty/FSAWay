@@ -1,6 +1,34 @@
 ﻿namespace fsaWayPageApp.Controllers {
 
 
+
+    angular.module('fsaWayPageApp').controller('HomeController', ['$scope', '$mdSidenav', function ($scope, $mdSidenav) {
+        $scope.toggleSidenav = function (menuId) {
+            $mdSidenav(menuId).toggle();
+        };
+
+    }]);
+
+    angular.module('fsaWayPageApp').controller('mainController', function ($scope) {
+        let users = [
+            {
+                name: 'Fred',
+                email: ''
+            },
+            {
+                name: 'Priya',
+                email: ''
+            }
+        ];
+
+        $scope.formDataTwo = {};
+        $scope.formDataTwo.users = users;
+
+    });
+
+
+
+
     //let request = new XMLHttpRequest();
 
     //request.open('GET', 'https://www.mockaroo.com/1feebdf0/download?count=100&key=cbd19840');
@@ -14,7 +42,7 @@
     //request.send();
 
 
-//Ajax Mockaroo DB//
+    //Ajax Mockaroo DB//
 
     const webAPIURL = 'https://www.mockaroo.com/1feebdf0/download?count=100&key=cbd19840';
 
@@ -33,38 +61,38 @@
 
     angular.module('fsaWayPageApp').controller
         ('ProductListController', ProductListController);
-}
 
-//FSAWay page controllers//
 
-    class IndexController {
+    //FSAWay page controllers//
+
+    class HomeController {
         constructor(
             public $route: ng.route.IRouteService
         ) { }
     }
-    angular.module('fsaWayPageApp').controller('IndexController', IndexController);
+    angular.module('fsaWayPageApp').controller('HomeController', HomeController);
 
-    class AboutController {
-        message = 'This is the about page';
+    //class AboutController {
+    //    message = 'This is the about page';
 
-    }
+    //}
 
-    angular.module('fsaWayPageApp').controller('AboutController', AboutController);
+    //angular.module('fsaWayPageApp').controller('AboutController', AboutController);
 
-    class SupportController {
-        message = 'This is the support page';
+    //class SupportController {
+    //    message = 'This is the support page';
 
-    }
+    //}
 
-    angular.module('fsaWayPageApp').controller('SupportController', SupportController);
+    //angular.module('fsaWayPageApp').controller('SupportController', SupportController);
 
 
-    class LoginController {
-        message = 'This is the login page';
+    //class LoginController {
+    //    message = 'This is the login page';
 
-    }
+    //}
 
-    angular.module('fsaWayPageApp').controller('LoginController', LoginController);
+    //angular.module('fsaWayPageApp').controller('LoginController', LoginController);
 
     class RegistrationController {
         message = 'This is the registration page';
@@ -103,3 +131,4 @@
 
     angular.module('fsaWayPageApp').controller('PersbalanceController', PersbalanceController);
 
+}

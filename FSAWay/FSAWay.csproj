@@ -233,7 +233,6 @@
     <Content Include="fsApps\about.html" />
     <Content Include="fsApps\fsacheck.html" />
     <Content Include="fsApps\index.html" />
-    <Content Include="fsApps\signin.html" />
     <Content Include="fsApps\signup.html" />
     <Content Include="fsApps\notfound.html" />
     <Content Include="fsApps\products.html" />
