@@ -1,6 +1,6 @@
-var fsaWayPageApp;
-(function (fsaWayPageApp) {
-    angular.module('fsaWayPageApp', ['ngMaterial', 'ngRoute', 'ngResource']).config(function ($routeProvider, $locationProvider) {
+var FsaWayApp;
+(function (FsaWayApp) {
+    angular.module('FsaWayApp', ['ngMaterial', 'ngRoute', 'ngResource']).config(function ($routeProvider, $locationProvider) {
         //Page routing//
         $routeProvider
             .when('/', {
@@ -38,4 +38,5 @@ var fsaWayPageApp;
             .otherwise('/fsApps/notfound.html');
         $locationProvider.html5Mode(true);
     });
-})(fsaWayPageApp || (fsaWayPageApp = {}));
+})(FsaWayApp || (FsaWayApp = {}));
+//# sourceMappingURL=app.js.map

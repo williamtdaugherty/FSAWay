@@ -75,3 +75,5 @@ C:\FSAWay\FSAWay\bin\System.Web.Http.Owin.xml
 C:\FSAWay\FSAWay\obj\Debug\FSAWay.csprojResolveAssemblyReference.cache
 C:\FSAWay\FSAWay\obj\Debug\FSAWay.dll
 C:\FSAWay\FSAWay\obj\Debug\FSAWay.pdb
+C:\FSAWay\FSAWay\obj\Debug\FSAWay.Migrations.start.resources
+C:\FSAWay\FSAWay\obj\Debug\FSAWay.csproj.GenerateResource.Cache

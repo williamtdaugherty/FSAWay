@@ -1,7 +1,8 @@
-﻿namespace fsaWayPageApp {
+﻿namespace FsaWayApp {
 
 
-    angular.module('fsaWayPageApp', ['ngMaterial', 'ngRoute', 'ngResource']).config(($routeProvider: ng.route.IRouteProvider, $locationProvider: ng.ILocationProvider) => {
+    angular.module('FsaWayApp', ['ngMaterial', 'ngRoute', 'ngResource']).config(($routeProvider: ng.route.IRouteProvider, $locationProvider: ng.ILocationProvider) => {
+
 
 
 
@@ -71,11 +72,6 @@
 
     });
 
-
-
-
-    // email authentication form 
-
-
+    
 
 }

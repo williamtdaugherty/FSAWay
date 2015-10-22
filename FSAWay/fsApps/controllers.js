@@ -1,13 +1,13 @@
-var fsaWayPageApp;
-(function (fsaWayPageApp) {
+var FsaWayApp;
+(function (FsaWayApp) {
     var Controllers;
     (function (Controllers) {
-        angular.module('fsaWayPageApp').controller('HomeController', ['$scope', '$mdSidenav', function ($scope, $mdSidenav) {
+        angular.module('FsaWayApp').controller('HomeController', ['$scope', '$mdSidenav', function ($scope, $mdSidenav) {
                 $scope.toggleSidenav = function (menuId) {
                     $mdSidenav(menuId).toggle();
                 };
             }]);
-        angular.module('fsaWayPageApp').controller('mainController', function ($scope) {
+        angular.module('FsaWayApp').controller('mainController', function ($scope) {
             var users = [
                 {
                     name: 'Fred',
@@ -40,7 +40,7 @@ var fsaWayPageApp;
             }
             return ProductListController;
         })();
-        angular.module('fsaWayPageApp').controller('ProductListController', ProductListController);
+        angular.module('FsaWayApp').controller('ProductListController', ProductListController);
         //FSAWay page controllers//
         var HomeController = (function () {
             function HomeController($route) {
@@ -48,53 +48,54 @@ var fsaWayPageApp;
             }
             return HomeController;
         })();
-        angular.module('fsaWayPageApp').controller('HomeController', HomeController);
+        angular.module('FsaWayApp').controller('HomeController', HomeController);
         //class AboutController {
         //    message = 'This is the about page';
         //}
-        //angular.module('fsaWayPageApp').controller('AboutController', AboutController);
+        //angular.module('FsaWayApp').controller('AboutController', AboutController);
         //class SupportController {
         //    message = 'This is the support page';
         //}
-        //angular.module('fsaWayPageApp').controller('SupportController', SupportController);
+        //angular.module('FsaWayApp').controller('SupportController', SupportController);
         //class LoginController {
         //    message = 'This is the login page';
         //}
-        //angular.module('fsaWayPageApp').controller('LoginController', LoginController);
+        //angular.module('FsaWayApp').controller('LoginController', LoginController);
         var RegistrationController = (function () {
             function RegistrationController() {
                 this.message = 'This is the registration page';
             }
             return RegistrationController;
         })();
-        angular.module('fsaWayPageApp').controller('RegistrationController', RegistrationController);
+        angular.module('FsaWayApp').controller('RegistrationController', RegistrationController);
         var TermsController = (function () {
             function TermsController() {
                 this.message = 'This is the terms page';
             }
             return TermsController;
         })();
-        angular.module('fsaWayPageApp').controller('TermsController', TermsController);
+        angular.module('FsaWayApp').controller('TermsController', TermsController);
         var ProductsController = (function () {
             function ProductsController() {
                 this.message = 'This is the products page';
             }
             return ProductsController;
         })();
-        angular.module('fsaWayPageApp').controller('ProductsController', ProductsController);
+        angular.module('FsaWayApp').controller('ProductsController', ProductsController);
         var FSAcheckController = (function () {
             function FSAcheckController() {
                 this.message = 'This is the FSAWay check page';
             }
             return FSAcheckController;
         })();
-        angular.module('fsaWayPageApp').controller('FSAcheckController', FSAcheckController);
+        angular.module('FsaWayApp').controller('FSAcheckController', FSAcheckController);
         var PersbalanceController = (function () {
             function PersbalanceController() {
                 this.message = 'This is the about page';
             }
             return PersbalanceController;
         })();
-        angular.module('fsaWayPageApp').controller('PersbalanceController', PersbalanceController);
-    })(Controllers = fsaWayPageApp.Controllers || (fsaWayPageApp.Controllers = {}));
-})(fsaWayPageApp || (fsaWayPageApp = {}));
+        angular.module('FsaWayApp').controller('PersbalanceController', PersbalanceController);
+    })(Controllers = FsaWayApp.Controllers || (FsaWayApp.Controllers = {}));
+})(FsaWayApp || (FsaWayApp = {}));
+//# sourceMappingURL=controllers.js.map

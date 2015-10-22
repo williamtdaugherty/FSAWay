@@ -2,7 +2,7 @@
 
 @{ Layout = null;}
 
-<html ng-app="fsaWayPageApp">
+<html ng-app="FsaWayApp">
 
 
 <head>
@@ -14,46 +14,45 @@
 
 </head>
 
-    <body layout="column">
-        <div layout="column" style="height:500px;" ng-cloak>
-            <section layout="row" flex>
-                <md-sidenav class="md-sidenav-left md-whiteframe-z2" md-component-id="left" md-is-locked-open="$mdMedia('gt-md')">
-                    <md-toolbar class="md-theme-indigo">
-                        <h1 class="md-toolbar-tools">Sidenav Left</h1>
-                    </md-toolbar>
-                    <md-content layout-padding ng-controller="LeftCtrl">
-                        <md-button ng-click="close()" class="md-primary" hide-gt-md>
-                            Close Sidenav Left
-                        </md-button>
-                        <p hide-md show-gt-md>
-                            This sidenav is locked open on your device. To go back to the default behavior,
-                            narrow your display.
-                        </p>
-                    </md-content>
-                </md-sidenav>
-            </section>
+<body layout="column" ng-controller="AppCtrl">
+    <md-toolbar layout="row">
+        <div class="md-toolbar-tools">
+            <md-button ng-click="toggleSidenav('left')" hide-gt-sm class="md-icon-button">
+                <md-icon aria-label="Menu" md-svg-icon="https://s3-us-west-2.amazonaws.com/s.cdpn.io/68133/menu.svg"></md-icon>
+            </md-button>
+            <h1>Hello World</h1>
         </div>
+    </md-toolbar>
+    <div layout="row" flex>
+        <md-sidenav layout="column" class="md-sidenav-left md-whiteframe-z2" md-component-id="left" md-is-locked-open="$mdMedia('gt-sm')">
+
+        </md-sidenav>
+        <div layout="column" flex id="content">
+            <md-content layout="column" flex class="md-padding">
+
+            </md-content>
+        </div>
+    </div>
 
 
 
-
-        <a href="/about">About Page</a> |<a href="/support">Support Page</a> | <a href="/signup">Sign Up</a> |<a href="/terms">Terms Page</a> |
-        <a href="/products">Products Page</a> | <a href="fsacheck">FSACheck Page</a> | <a href="/persbalance">Personal Balance Page</a>
-
-
-        <ng-view></ng-view>
+    <a href="/about">About Page</a> |<a href="/support">Support Page</a> | <a href="/signup">Sign Up</a> |<a href="/terms">Terms Page</a> |
+    <a href="/products">Products Page</a> | <a href="fsacheck">FSACheck Page</a> | <a href="/persbalance">Personal Balance Page</a>
 
 
-        <!-- Angular Material Dependencies -->
-        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular.min.js"></script>
-        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular-animate.min.js"></script>
-        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular-aria.min.js"></script>
-        <script src="https://ajax.googleapis.com/ajax/libs/angular_material/0.9.4/angular-material.min.js"></script>
+    <ng-view></ng-view>
 
-        <script src="~/Scripts/angular-resource.min.js"></script>
-        <script src="~/Scripts/angular-route.min.js"></script>
-        <script src="~/fsApps/app.js"></script>
-        <script src="~/fsApps/controllers.js"></script>
 
-    </body>
+    <!-- Angular Material Dependencies -->
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular-animate.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular-aria.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angular_material/0.9.4/angular-material.min.js"></script>
+
+    <script src="~/Scripts/angular-resource.min.js"></script>
+    <script src="~/Scripts/angular-route.min.js"></script>
+    <script src="~/fsApps/app.js"></script>
+    <script src="~/fsApps/controllers.js"></script>
+
+</body>
 </html>
