@@ -7,20 +7,20 @@ var FsaWayApp;
                     $mdSidenav(menuId).toggle();
                 };
             }]);
-        angular.module('FsaWayApp').controller('mainController', function ($scope) {
-            var users = [
-                {
-                    name: 'Fred',
-                    email: ''
-                },
-                {
-                    name: 'Priya',
-                    email: ''
-                }
-            ];
-            $scope.formDataTwo = {};
-            $scope.formDataTwo.users = users;
-        });
+        //angular.module('FsaWayApp').controller('mainController', function ($scope) {
+        //    let users = [
+        //        {
+        //            name: 'Fred',
+        //            email: ''
+        //        },
+        //        {
+        //            name: 'Priya',
+        //            email: ''
+        //        }
+        //    ];
+        //    $scope.formDataTwo = {};
+        //    $scope.formDataTwo.users = users;
+        //});
         //let request = new XMLHttpRequest();
         //request.open('GET', 'https://www.mockaroo.com/1feebdf0/download?count=100&key=cbd19840');
         //request.addEventListener('load', function (e) {
@@ -49,18 +49,6 @@ var FsaWayApp;
             return HomeController;
         })();
         angular.module('FsaWayApp').controller('HomeController', HomeController);
-        //class AboutController {
-        //    message = 'This is the about page';
-        //}
-        //angular.module('FsaWayApp').controller('AboutController', AboutController);
-        //class SupportController {
-        //    message = 'This is the support page';
-        //}
-        //angular.module('FsaWayApp').controller('SupportController', SupportController);
-        //class LoginController {
-        //    message = 'This is the login page';
-        //}
-        //angular.module('FsaWayApp').controller('LoginController', LoginController);
         var RegistrationController = (function () {
             function RegistrationController() {
                 this.message = 'This is the registration page';
@@ -68,13 +56,13 @@ var FsaWayApp;
             return RegistrationController;
         })();
         angular.module('FsaWayApp').controller('RegistrationController', RegistrationController);
-        var TermsController = (function () {
-            function TermsController() {
-                this.message = 'This is the terms page';
+        var PrivacyController = (function () {
+            function PrivacyController() {
+                this.message = 'This is the privacy page';
             }
-            return TermsController;
+            return PrivacyController;
         })();
-        angular.module('FsaWayApp').controller('TermsController', TermsController);
+        angular.module('FsaWayApp').controller('PrivacyController', PrivacyController);
         var ProductsController = (function () {
             function ProductsController() {
                 this.message = 'This is the products page';
@@ -82,20 +70,13 @@ var FsaWayApp;
             return ProductsController;
         })();
         angular.module('FsaWayApp').controller('ProductsController', ProductsController);
-        var FSAcheckController = (function () {
-            function FSAcheckController() {
-                this.message = 'This is the FSAWay check page';
+        var AdminController = (function () {
+            function AdminController() {
+                this.message = 'This is the Admin backend page';
             }
-            return FSAcheckController;
+            return AdminController;
         })();
-        angular.module('FsaWayApp').controller('FSAcheckController', FSAcheckController);
-        var PersbalanceController = (function () {
-            function PersbalanceController() {
-                this.message = 'This is the about page';
-            }
-            return PersbalanceController;
-        })();
-        angular.module('FsaWayApp').controller('PersbalanceController', PersbalanceController);
+        angular.module('FsaWayApp').controller('AdminController', AdminController);
     })(Controllers = FsaWayApp.Controllers || (FsaWayApp.Controllers = {}));
 })(FsaWayApp || (FsaWayApp = {}));
 //# sourceMappingURL=controllers.js.map

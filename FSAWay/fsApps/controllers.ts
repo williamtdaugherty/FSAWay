@@ -9,22 +9,22 @@
 
     }]);
 
-    angular.module('FsaWayApp').controller('mainController', function ($scope) {
-        let users = [
-            {
-                name: 'Fred',
-                email: ''
-            },
-            {
-                name: 'Priya',
-                email: ''
-            }
-        ];
+    //angular.module('FsaWayApp').controller('mainController', function ($scope) {
+    //    let users = [
+    //        {
+    //            name: 'Fred',
+    //            email: ''
+    //        },
+    //        {
+    //            name: 'Priya',
+    //            email: ''
+    //        }
+    //    ];
 
-        $scope.formDataTwo = {};
-        $scope.formDataTwo.users = users;
+    //    $scope.formDataTwo = {};
+    //    $scope.formDataTwo.users = users;
 
-    });
+    //});
 
 
 
@@ -72,28 +72,7 @@
     }
     angular.module('FsaWayApp').controller('HomeController', HomeController);
 
-    //class AboutController {
-    //    message = 'This is the about page';
-
-    //}
-
-    //angular.module('FsaWayApp').controller('AboutController', AboutController);
-
-    //class SupportController {
-    //    message = 'This is the support page';
-
-    //}
-
-    //angular.module('FsaWayApp').controller('SupportController', SupportController);
-
-
-    //class LoginController {
-    //    message = 'This is the login page';
-
-    //}
-
-    //angular.module('FsaWayApp').controller('LoginController', LoginController);
-
+   
     class RegistrationController {
         message = 'This is the registration page';
 
@@ -101,12 +80,12 @@
 
     angular.module('FsaWayApp').controller('RegistrationController', RegistrationController);
 
-    class TermsController {
-        message = 'This is the terms page';
+    class PrivacyController {
+        message = 'This is the privacy page';
 
     }
 
-    angular.module('FsaWayApp').controller('TermsController', TermsController);
+    angular.module('FsaWayApp').controller('PrivacyController', PrivacyController);
 
 
     class ProductsController {
@@ -117,18 +96,10 @@
     angular.module('FsaWayApp').controller('ProductsController', ProductsController);
 
 
-    class FSAcheckController {
-        message = 'This is the FSAWay check page';
+    class AdminController {
+        message = 'This is the Admin backend page';
 
     }
-
-    angular.module('FsaWayApp').controller('FSAcheckController', FSAcheckController);
-
-    class PersbalanceController {
-        message = 'This is the about page';
-
-    }
-
-    angular.module('FsaWayApp').controller('PersbalanceController', PersbalanceController);
+    angular.module('FsaWayApp').controller('AdminController', AdminController);
 
 }

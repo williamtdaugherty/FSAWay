@@ -22,7 +22,7 @@ namespace FSAWay.Models
     public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
     {
 
-        public IDbSet<HealthProducts>HealthProducts {get;set;}
+        public IDbSet<HealthProduct>HealthProducts {get;set;}
 
 
         public ApplicationDbContext()

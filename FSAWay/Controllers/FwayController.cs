@@ -12,7 +12,7 @@ namespace FSAWay.Controllers
     {
         private ApplicationDbContext _db = new ApplicationDbContext();
 
-        public IEnumerable<HealthProducts> Get()
+        public IEnumerable<HealthProduct> Get()
         {
             return _db.HealthProducts.ToList();
 

@@ -16,23 +16,23 @@ namespace FSAWay.Migrations
         protected override void Seed(FSAWay.Models.ApplicationDbContext context)
         {
 
-            var HealthProduct = new HealthProducts[]
+            var healthProducts = new HealthProduct[]
             {
-                new HealthProducts {Name="Iodine", Qualifies=true },
-                new HealthProducts {Name="Finger Splint", Qualifies=true },
-                new HealthProducts {Name="Energy Water", Qualifies=false },
-                new HealthProducts {Name="Stool Softener", Qualifies=true },
-                new HealthProducts {Name="Lip Balm", Qualifies=true },
-                new HealthProducts {Name="Shower Stool", Qualifies=true },
-                new HealthProducts {Name="Diabetes Meter", Qualifies=true },
-                new HealthProducts {Name="Nasal Drops", Qualifies=true },
-                new HealthProducts {Name="Tweezers", Qualifies=true },
-                new HealthProducts {Name="Antacid Tablets", Qualifies=true },
-                new HealthProducts {Name="Itch Lotion", Qualifies=true },
-                new HealthProducts {Name="Dental Floss", Qualifies=false },
+                new HealthProduct {ProductName="Iodine", Qualifies=true },
+                new HealthProduct {ProductName="Finger Splint", Qualifies=true },
+                new HealthProduct {ProductName="Energy Water", Qualifies=false },
+                new HealthProduct {ProductName="Stool Softener", Qualifies=true },
+                new HealthProduct {ProductName="Lip Balm", Qualifies=true },
+                new HealthProduct {ProductName="Shower Stool", Qualifies=true },
+                new HealthProduct {ProductName="Diabetes Meter", Qualifies=true },
+                new HealthProduct {ProductName="Nasal Drops", Qualifies=true },
+                new HealthProduct {ProductName="Tweezers", Qualifies=true },
+                new HealthProduct {ProductName="Antacid Tablets", Qualifies=true },
+                new HealthProduct {ProductName="Itch Lotion", Qualifies=true },
+                new HealthProduct {ProductName="Dental Floss", Qualifies=false },
             };
 
-            context.HealthProducts.AddOrUpdate(h => h.Name, HealthProduct);
+            context.HealthProducts.AddOrUpdate(h => h.ProductName, healthProducts);
 
 
         }

@@ -1,8 +1,11 @@
 ﻿namespace FsaWayApp {
 
 
-    angular.module('FsaWayApp', ['ngMaterial', 'ngRoute', 'ngResource']).config(($routeProvider: ng.route.IRouteProvider, $locationProvider: ng.ILocationProvider) => {
+    angular.module('FsaWayApp', ['ngMaterial', 'ngRoute', 'ngResource']).config(($routeProvider: ng.route.IRouteProvider, $locationProvider: ng.ILocationProvider, $mdThemingProvider) => {
 
+                $mdThemingProvider.theme('default')
+                    .primaryPalette('teal')
+                    .dark();
 
 
 
@@ -12,61 +15,51 @@
         $routeProvider
 
             .when('/', {
-                templateUrl: '/fsApps/index.html',
+                templateUrl: '/fsApps/Views/index.html',
                 controller: 'HomeController as vm'
 
             })
 
 
             .when('/about', {
-                templateUrl: '/fsApps/about.html',
+                templateUrl: '/fsApps/Views/about.html'
 
 
             })
 
 
             .when('/support', {
-                templateUrl: '/fsApps/support.html',
+                templateUrl: '/fsApps/Views/support.html'
 
 
             })
 
-            .when('/signup', {
-                templateUrl: '/fsApps/signup.html',
-                //controller: 'mainController as vm'
-
-            })
 
             .when('/registration', {
-                templateUrl: '/fsApps/registration.html',
+                templateUrl: '/fsApps/Views/registration.html',
                 controller: 'RegistrationController as vm'
 
             })
 
-            .when('/terms', {
-                templateUrl: '/fsApps/terms.html',
+            .when('/privacy', {
+                templateUrl: '/fsApps/Views/privacy.html',
 
 
             })
 
             .when('/products', {
-                templateUrl: '/fsApps/products.html',
+                templateUrl: '/fsApps/Views/products.html',
                 controller: 'ProductsController as vm'
 
             })
 
-            .when('/fsacheck', {
-                templateUrl: '/fsApps/fsacheck.html',
-                controller: 'FSAcheckController as vm'
+            .when('/admin', {
+                templateUrl: '/fsApps/Views/admin.html',
+                controller: 'AdminController as vm'
 
             })
 
-            .when('/persbalance', {
-                templateUrl: '/fsApps/persbalance.html',
-                controller: 'PersbalanceController as vm'
-
-            })
-            .otherwise('/fsApps/notfound.html');
+            .otherwise({templateUrl: '/fsApps/Views/notfound.html'});
 
         $locationProvider.html5Mode(true);
 
