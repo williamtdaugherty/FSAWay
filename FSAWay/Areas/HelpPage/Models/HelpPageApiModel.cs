@@ -2,9 +2,9 @@ using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Net.Http.Headers;
 using System.Web.Http.Description;
-using FSAWay.Areas.HelpPage.ModelDescriptions;
+using FsaWayApp.Areas.HelpPage.ModelDescriptions;
 
-namespace FSAWay.Areas.HelpPage.Models
+namespace FsaWayApp.Areas.HelpPage.Models
 {
     /// <summary>
     /// The model that represents an API displayed on the help page.

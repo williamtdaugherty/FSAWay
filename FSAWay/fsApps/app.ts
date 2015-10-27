@@ -3,68 +3,84 @@
 
     angular.module('FsaWayApp', ['ngMaterial', 'ngRoute', 'ngResource']).config(($routeProvider: ng.route.IRouteProvider, $locationProvider: ng.ILocationProvider, $mdThemingProvider) => {
 
-                $mdThemingProvider.theme('default')
-                    .primaryPalette('teal')
-                    .dark();
+        $mdThemingProvider.theme('default')
+            .primaryPalette('teal')
+            .dark();
 
 
-
-
-        //Page routing//
 
         $routeProvider
-
             .when('/', {
-                templateUrl: '/fsApps/Views/index.html',
-                controller: 'HomeController as vm'
-
+                templateUrl: '/fsApps/views/index.html',
+                controller: FsaWayApp.Controllers.HomeController,
+                controllerAs: 'controller'
             })
-
-
             .when('/about', {
-                templateUrl: '/fsApps/Views/about.html'
-
-
+                templateUrl: '/fsApps/views/about.html',
+                controller: FsaWayApp.Controllers.AboutController,
+                controllerAs: 'controller'
             })
-
-
-            .when('/support', {
-                templateUrl: '/fsApps/Views/support.html'
-
-
+     
+          .when('/useradmin', {
+                templateUrl: '/fsApps/views/UserAdmin.html',
+                controller: FsaWayApp.Controllers.UserAdminController,
+                controllerAs: 'controller'
+                   
+                  
             })
-
-
-            .when('/registration', {
-                templateUrl: '/fsApps/Views/registration.html',
-                controller: 'RegistrationController as vm'
-
+            .when('/login', {
+                templateUrl: '/fsApps/views/login.html',
+                controller: FsaWayApp.Controllers.LoginController,
+                controllerAs: 'controller'
             })
-
-            .when('/privacy', {
-                templateUrl: '/fsApps/Views/privacy.html',
-
-
+            .when('/register', {
+                templateUrl: '/fsApps/views/register.html',
+                controller: FsaWayApp.Controllers.RegisterController,
+                controllerAs: 'controller'
             })
-
-            .when('/products', {
-                templateUrl: '/fsApps/Views/products.html',
-                controller: 'ProductsController as vm'
-
+            .when('/externalLogin', {
+                templateUrl: '/fsApps/views/externalLogin.html',
+                controller: FsaWayApp.Controllers.ExternalLoginController,
+                controllerAs: 'controller'
             })
-
-            .when('/admin', {
-                templateUrl: '/fsApps/Views/admin.html',
-                controller: 'AdminController as vm'
-
+            .when('/externalRegister', {
+                templateUrl: '/fsApps/views/externalRegister.html',
+                controller: FsaWayApp.Controllers.ExternalRegisterController,
+                controllerAs: 'controller'
             })
-
-            .otherwise({templateUrl: '/fsApps/Views/notfound.html'});
+            .otherwise({
+                redirectTo: '/fsApps/views/notFound.html'
+            });
 
         $locationProvider.html5Mode(true);
-
     });
 
-    
+    angular.module('FsaWayApp').factory('authInterceptor', (
+        $q: ng.IQService,
+        $window: ng.IWindowService,
+        $location: ng.ILocationService
+    ) =>
+        ({
+            request: function (config) {
+                config.headers = config.headers || {};
+                let token = $window.sessionStorage.getItem('token');
+                if (token) {
+                    config.headers.Authorization = 'Bearer ' + token;
+                }
+                return config;
+            },
+            response: function (response) {
+                if (response.status === 401) {
+                    $location.path('/login');
+                }
+                return response || $q.when(response);
+            }
+        })
+    );
+
+
+    angular.module('FsaWayApp').config(function ($httpProvider) {
+        $httpProvider.interceptors.push('authInterceptor');
+    });
 
 }

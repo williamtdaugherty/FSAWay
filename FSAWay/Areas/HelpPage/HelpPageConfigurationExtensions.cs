@@ -11,10 +11,10 @@ using System.Net.Http.Headers;
 using System.Web.Http;
 using System.Web.Http.Controllers;
 using System.Web.Http.Description;
-using FSAWay.Areas.HelpPage.ModelDescriptions;
-using FSAWay.Areas.HelpPage.Models;
+using FsaWayApp.Areas.HelpPage.ModelDescriptions;
+using FsaWayApp.Areas.HelpPage.Models;
 
-namespace FSAWay.Areas.HelpPage
+namespace FsaWayApp.Areas.HelpPage
 {
     public static class HelpPageConfigurationExtensions
     {

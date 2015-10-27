@@ -1,7 +1,7 @@
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 
-namespace FSAWay.Areas.HelpPage.ModelDescriptions
+namespace FsaWayApp.Areas.HelpPage.ModelDescriptions
 {
     public class ParameterDescription
     {

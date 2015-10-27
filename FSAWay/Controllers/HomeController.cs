@@ -4,7 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 
-namespace FSAWay.Controllers
+namespace FsaWayApp.Controllers
 {
     public class HomeController : Controller
     {

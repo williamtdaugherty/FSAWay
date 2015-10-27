@@ -1,7 +1,7 @@
 using System;
 using System.Reflection;
 
-namespace FSAWay.Areas.HelpPage.ModelDescriptions
+namespace FsaWayApp.Areas.HelpPage.ModelDescriptions
 {
     public interface IModelDocumentationProvider
     {

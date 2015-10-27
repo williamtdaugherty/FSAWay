@@ -3,7 +3,7 @@ using System.Globalization;
 using System.Linq;
 using System.Reflection;
 
-namespace FSAWay.Areas.HelpPage.ModelDescriptions
+namespace FsaWayApp.Areas.HelpPage.ModelDescriptions
 {
     internal static class ModelNameHelper
     {

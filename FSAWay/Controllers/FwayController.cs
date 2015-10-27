@@ -1,4 +1,4 @@
-﻿using FSAWay.Models;
+﻿using FsaWayApp.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -6,7 +6,7 @@ using System.Net;
 using System.Net.Http;
 using System.Web.Http;
 
-namespace FSAWay.Controllers
+namespace FsaWayApp.Controllers
 {
     public class FwayController : ApiController
     {
@@ -17,6 +17,5 @@ namespace FSAWay.Controllers
             return _db.HealthProducts.ToList();
 
         }
-        }
+    }
 }
-

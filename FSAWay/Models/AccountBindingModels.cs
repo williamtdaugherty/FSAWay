@@ -2,7 +2,7 @@
 using System.ComponentModel.DataAnnotations;
 using Newtonsoft.Json;
 
-namespace FSAWay.Models
+namespace FsaWayApp.Models
 {
     // Models used as parameters to AccountController actions.
 

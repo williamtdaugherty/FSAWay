@@ -1,4 +1,4 @@
-namespace FSAWay.Areas.HelpPage
+namespace FsaWayApp.Areas.HelpPage
 {
     /// <summary>
     /// Indicates whether the sample is used for request or response

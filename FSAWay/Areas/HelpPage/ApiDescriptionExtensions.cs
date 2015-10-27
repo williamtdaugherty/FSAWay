@@ -3,7 +3,7 @@ using System.Text;
 using System.Web;
 using System.Web.Http.Description;
 
-namespace FSAWay.Areas.HelpPage
+namespace FsaWayApp.Areas.HelpPage
 {
     public static class ApiDescriptionExtensions
     {

@@ -4,9 +4,9 @@ using System.Linq;
 using Microsoft.Owin;
 using Owin;
 
-[assembly: OwinStartup(typeof(FSAWay.Startup))]
+[assembly: OwinStartup(typeof(FsaWayApp.Startup))]
 
-namespace FSAWay
+namespace FsaWayApp
 {
     public partial class Startup
     {

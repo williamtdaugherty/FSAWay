@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("FSAWay")]
+[assembly: AssemblyTitle("FsaWayApp")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("FSAWay")]
+[assembly: AssemblyProduct("FsaWayApp")]
 [assembly: AssemblyCopyright("Copyright ©  2015")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("2e964f26-a5db-46a6-b049-ed92cbb5c4f0")]
+[assembly: Guid("ea8a2d2c-71ed-4683-9767-f4285525d94d")]
 
 // Version information for an assembly consists of the following four values:
 //

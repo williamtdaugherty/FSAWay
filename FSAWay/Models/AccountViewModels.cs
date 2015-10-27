@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace FSAWay.Models
+namespace FsaWayApp.Models
 {
     // Models returned by AccountController actions.
 

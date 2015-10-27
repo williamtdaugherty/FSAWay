@@ -1,10 +1,10 @@
 using System;
 using System.Web.Http;
 using System.Web.Mvc;
-using FSAWay.Areas.HelpPage.ModelDescriptions;
-using FSAWay.Areas.HelpPage.Models;
+using FsaWayApp.Areas.HelpPage.ModelDescriptions;
+using FsaWayApp.Areas.HelpPage.Models;
 
-namespace FSAWay.Areas.HelpPage.Controllers
+namespace FsaWayApp.Areas.HelpPage.Controllers
 {
     /// <summary>
     /// The controller that will handle requests for the help page.

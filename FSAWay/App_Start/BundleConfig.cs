@@ -1,7 +1,7 @@
 ﻿using System.Web;
 using System.Web.Optimization;
 
-namespace FSAWay
+namespace FsaWayApp
 {
     public class BundleConfig
     {

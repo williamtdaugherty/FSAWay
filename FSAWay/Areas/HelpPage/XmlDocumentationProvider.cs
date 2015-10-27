@@ -5,9 +5,9 @@ using System.Reflection;
 using System.Web.Http.Controllers;
 using System.Web.Http.Description;
 using System.Xml.XPath;
-using FSAWay.Areas.HelpPage.ModelDescriptions;
+using FsaWayApp.Areas.HelpPage.ModelDescriptions;
 
-namespace FSAWay.Areas.HelpPage
+namespace FsaWayApp.Areas.HelpPage
 {
     /// <summary>
     /// A custom <see cref="IDocumentationProvider"/> that reads the API documentation from an XML documentation file.

@@ -7,7 +7,7 @@ using System.Threading;
 using System.Threading.Tasks;
 using System.Web.Http;
 
-namespace FSAWay.Results
+namespace FsaWayApp.Results
 {
     public class ChallengeResult : IHttpActionResult
     {

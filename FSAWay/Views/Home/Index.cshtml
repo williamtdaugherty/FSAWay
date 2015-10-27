@@ -1,31 +1,29 @@
 ﻿
-
 @{ Layout = null;}
 
 <html>
 
 
 <head>
-  
+
     <base href="/" />
     <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/angular_material/0.9.4/angular-material.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,500,700,400italic">
-    <meta name="viewport" content="initial-scale=1", user-scalable="no" />
+    <meta name="viewport" content="initial-scale=1" , user-scalable="no" />
     <link href="~/Content/angular-material.css" rel="stylesheet" />
-   
+
     <style>
         md-toolbar h1 {
             margin: auto;
             font-weight: 400;
-            color:aqua
-            
+            color: aqua;
         }
 
         md-toolbar.small h1 {
             font-size: 1.25em;
             margin: auto 0;
             padding-left: 16px;
-            color:darkslategrey;
+            color: darkslategrey;
         }
 
         #content {
@@ -41,25 +39,25 @@
 
 </head>
 
-<body ng-app="FsaWayApp"
-      layout="column">
+<body ng-app="FsaWayApp" layout="column">
 
     <md-toolbar>
-        <h1>FSA Way</h1>
+        <h1>Hello
+        </h1>
     </md-toolbar>
     <md-content flex>
         <h2>carousel/content placeholder</h2>
     </md-content>
     <ng-view></ng-view>
     <md-button>
-            <h5>
+        <h5>
             <a href="/about">About Page</a> |<a href="/support">Support Page</a> | <a href="/register">Sign Up</a> |<a href="/terms">Terms Page</a> |
-            <a href="/products">Products Page</a> | <a href="admin">Admin</a> 
-            </h5>
+            <a href="/products">Products Page</a> | <a href="/UserAdmin">Admin</a>
+        </h5>
     </md-button>
 
 
-  
+
 
 
     <!-- Angular Material Dependencies -->
@@ -70,8 +68,8 @@
     <script src="~/Scripts/angular-resource.min.js"></script>
     <script src="~/Scripts/angular-route.min.js"></script>
     <script src="~/fsApps/app.js"></script>
-    <script src="~/fsApps/controllers.js"></script>
-   
+    <script src="~/fsApps/controllers/controllers.js"></script>
+
 </body>
 
 </html>
