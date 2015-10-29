@@ -1,12 +1,9 @@
 var FsaWayApp;
 (function (FsaWayApp) {
-    angular.module('FsaWayApp', ['ngMaterial', 'ngRoute', 'ngResource']).config(function ($routeProvider, $locationProvider, $mdThemingProvider) {
-        $mdThemingProvider.theme('default')
-            .primaryPalette('teal')
-            .dark();
+    angular.module('FsaWayApp', ['ngRoute', 'ngResource']).config(function ($routeProvider, $locationProvider) {
         $routeProvider
             .when('/', {
-            templateUrl: '/fsApps/views/index.html',
+            templateUrl: '/fsApps/views/home.html',
             controller: FsaWayApp.Controllers.HomeController,
             controllerAs: 'controller'
         })
@@ -18,6 +15,11 @@ var FsaWayApp;
             .when('/useradmin', {
             templateUrl: '/fsApps/views/UserAdmin.html',
             controller: FsaWayApp.Controllers.UserAdminController,
+            controllerAs: 'controller'
+        })
+            .when('/products', {
+            templateUrl: '/fsApps/views/products.html',
+            controller: FsaWayApp.Controllers.ProductController,
             controllerAs: 'controller'
         })
             .when('/login', {

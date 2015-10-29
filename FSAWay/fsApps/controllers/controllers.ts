@@ -1,19 +1,6 @@
 ﻿namespace FsaWayApp.Controllers {
 
 
-
-
-    angular.module('FsaWayApp').controller('HomeController', ['$scope', '$mdSidenav', function ($scope, $mdSidenav) {
-        $scope.toggleSidenav = function (menuId) {
-            $mdSidenav(menuId).toggle();
-        };
-
-    }]);
-
-
-
-   
-
     export class HomeController {
         public healthproducts;
 
@@ -23,18 +10,25 @@
             private $location: angular.ILocationService
             ) {
             this.healthproducts = this.healthproductService.listHealthproducts();
+            debugger;
         }
+        
+
     }
 
+
+    export class ProductController {
+
+    }
 
     export class AboutController {
 
-
-
-
-
-
     }
+
+
+
+
+
     export class UserAdminController {
 
         public users;

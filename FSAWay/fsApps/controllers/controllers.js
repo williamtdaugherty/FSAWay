@@ -2,20 +2,22 @@ var FsaWayApp;
 (function (FsaWayApp) {
     var Controllers;
     (function (Controllers) {
-        angular.module('FsaWayApp').controller('HomeController', ['$scope', '$mdSidenav', function ($scope, $mdSidenav) {
-                $scope.toggleSidenav = function (menuId) {
-                    $mdSidenav(menuId).toggle();
-                };
-            }]);
         var HomeController = (function () {
             function HomeController(healthproductService, $location) {
                 this.healthproductService = healthproductService;
                 this.$location = $location;
                 this.healthproducts = this.healthproductService.listHealthproducts();
+                debugger;
             }
             return HomeController;
         })();
         Controllers.HomeController = HomeController;
+        var ProductController = (function () {
+            function ProductController() {
+            }
+            return ProductController;
+        })();
+        Controllers.ProductController = ProductController;
         var AboutController = (function () {
             function AboutController() {
             }

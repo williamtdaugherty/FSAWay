@@ -1,33 +1,38 @@
 ﻿namespace FsaWayApp {
 
 
-    angular.module('FsaWayApp', ['ngMaterial', 'ngRoute', 'ngResource']).config(($routeProvider: ng.route.IRouteProvider, $locationProvider: ng.ILocationProvider, $mdThemingProvider) => {
-
-        $mdThemingProvider.theme('default')
-            .primaryPalette('teal')
-            .dark();
+    angular.module('FsaWayApp', ['ngRoute', 'ngResource']).config(($routeProvider: ng.route.IRouteProvider, $locationProvider: ng.ILocationProvider) => {
+       
 
 
 
         $routeProvider
             .when('/', {
-                templateUrl: '/fsApps/views/index.html',
+                templateUrl: '/fsApps/views/home.html',
                 controller: FsaWayApp.Controllers.HomeController,
                 controllerAs: 'controller'
             })
+
             .when('/about', {
                 templateUrl: '/fsApps/views/about.html',
                 controller: FsaWayApp.Controllers.AboutController,
                 controllerAs: 'controller'
             })
      
-          .when('/useradmin', {
+            .when('/useradmin', {
                 templateUrl: '/fsApps/views/UserAdmin.html',
                 controller: FsaWayApp.Controllers.UserAdminController,
-                controllerAs: 'controller'
-                   
+                controllerAs: 'controller'       
                   
             })
+
+            .when('/products', {
+                templateUrl: '/fsApps/views/products.html',
+                controller: FsaWayApp.Controllers.ProductController,
+                controllerAs: 'controller'
+
+            })
+
             .when('/login', {
                 templateUrl: '/fsApps/views/login.html',
                 controller: FsaWayApp.Controllers.LoginController,
