@@ -128,4 +128,3 @@ var FsaWayApp;
         angular.module('FsaWayApp').service('accountService', AccountService);
     })(Services = FsaWayApp.Services || (FsaWayApp.Services = {}));
 })(FsaWayApp || (FsaWayApp = {}));
-//# sourceMappingURL=accountService.js.map

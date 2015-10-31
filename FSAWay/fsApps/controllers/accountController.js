@@ -97,4 +97,3 @@ var FsaWayApp;
         Controllers.ExternalRegisterController = ExternalRegisterController;
     })(Controllers = FsaWayApp.Controllers || (FsaWayApp.Controllers = {}));
 })(FsaWayApp || (FsaWayApp = {}));
-//# sourceMappingURL=accountController.js.map

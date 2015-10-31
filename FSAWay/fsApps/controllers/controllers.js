@@ -7,11 +7,32 @@ var FsaWayApp;
                 this.healthproductService = healthproductService;
                 this.$location = $location;
                 this.healthproducts = this.healthproductService.listHealthproducts();
-                debugger;
             }
             return HomeController;
         })();
         Controllers.HomeController = HomeController;
+        var AddController = (function () {
+            function AddController(healthproductService, $location) {
+                this.healthproductService = healthproductService;
+                this.$location = $location;
+            }
+            AddController.prototype.save = function () {
+                var _this = this;
+                this.healthproductService.save(this.healthproductToAdd).then(function () {
+                    _this.$location.path('/');
+                });
+            };
+            return AddController;
+        })();
+        Controllers.AddController = AddController;
+        var UserAdminController = (function () {
+            function UserAdminController(userService) {
+                this.userService = userService;
+                this.users = this.userService.listUsers();
+            }
+            return UserAdminController;
+        })();
+        Controllers.UserAdminController = UserAdminController;
         var ProductController = (function () {
             function ProductController() {
             }
@@ -24,14 +45,11 @@ var FsaWayApp;
             return AboutController;
         })();
         Controllers.AboutController = AboutController;
-        var UserAdminController = (function () {
-            function UserAdminController(movieService) {
-                this.movieService = movieService;
-                this.users = this.movieService.listUsers();
+        var TermController = (function () {
+            function TermController() {
             }
-            return UserAdminController;
+            return TermController;
         })();
-        Controllers.UserAdminController = UserAdminController;
+        Controllers.TermController = TermController;
     })(Controllers = FsaWayApp.Controllers || (FsaWayApp.Controllers = {}));
 })(FsaWayApp || (FsaWayApp = {}));
-//# sourceMappingURL=controllers.js.map

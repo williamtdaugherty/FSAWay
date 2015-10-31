@@ -22,6 +22,11 @@ var FsaWayApp;
             controller: FsaWayApp.Controllers.ProductController,
             controllerAs: 'controller'
         })
+            .when('/terms', {
+            templateUrl: '/fsApps/views/terms.html',
+            controller: FsaWayApp.Controllers.TermController,
+            controllerAs: 'controller'
+        })
             .when('/login', {
             templateUrl: '/fsApps/views/login.html',
             controller: FsaWayApp.Controllers.LoginController,
@@ -69,4 +74,3 @@ var FsaWayApp;
         $httpProvider.interceptors.push('authInterceptor');
     });
 })(FsaWayApp || (FsaWayApp = {}));
-//# sourceMappingURL=app.js.map
