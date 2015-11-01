@@ -17,20 +17,20 @@
 
     }
 
-    export class AddController {
-        public healthproductToAdd;
+    //export class AddController {
+    //    public healthproductToAdd;
 
-        public save() {
-            this.healthproductService.save(this.healthproductToAdd).then(() => {
-                this.$location.path('/');
-            });
+    //    public save() {
+    //        this.healthproductService.save(this.healthproductToAdd).then(() => {
+    //            this.$location.path('/');
+    //        });
              
-        }
+    //    }
 
-        constructor(
-            private healthproductService: FsaWayApp.Services.HealthproductService,
-            private $location: angular.ILocationService) { }
-    }
+    //    constructor(
+    //        private healthproductService: FsaWayApp.Services.HealthproductService,
+    //        private $location: angular.ILocationService) { }
+    //}
 
 
 

@@ -113,6 +113,20 @@ var FsaWayApp;
                     });
                 });
             };
+            AccountService.prototype.confirmEmail = function (userId, code) {
+                var _this = this;
+                return this.$q(function (resolve, reject) {
+                    var data = {
+                        userId: userId,
+                        code: code
+                    };
+                    _this.$http.post('/api/account/confirmEmail', data).then(function (result) {
+                        resolve(result.data);
+                    }).catch(function (result) {
+                        reject(result);
+                    });
+                });
+            };
             // extract access token from response
             AccountService.prototype.parseOAuthResponse = function (token) {
                 var results = {};
@@ -128,3 +142,4 @@ var FsaWayApp;
         angular.module('FsaWayApp').service('accountService', AccountService);
     })(Services = FsaWayApp.Services || (FsaWayApp.Services = {}));
 })(FsaWayApp || (FsaWayApp = {}));
+//# sourceMappingURL=accountService.js.map

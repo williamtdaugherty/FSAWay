@@ -47,6 +47,11 @@ var FsaWayApp;
             controller: FsaWayApp.Controllers.ExternalRegisterController,
             controllerAs: 'controller'
         })
+            .when('/confirmEmail', {
+            templateUrl: '/ngApp/views/confirmEmail.html',
+            controller: FsaWayApp.Controllers.ConfirmEmailController,
+            controllerAs: 'controller'
+        })
             .otherwise({
             redirectTo: '/fsApps/views/notFound.html'
         });
@@ -74,3 +79,4 @@ var FsaWayApp;
         $httpProvider.interceptors.push('authInterceptor');
     });
 })(FsaWayApp || (FsaWayApp = {}));
+//# sourceMappingURL=app.js.map

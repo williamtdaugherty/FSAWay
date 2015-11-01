@@ -114,6 +114,11 @@
             });
         }
 
+        confirmEmail(userId, code): ng.IPromise<{}> {            return this.$q((resolve, reject) => {                let data = {                    userId: userId,                    code: code                };                this.$http.post('/api/account/confirmEmail', data).then((result: any) => {                    resolve(result.data);                }).catch((result) => {                    reject(result);                });            });        }
+
+        
+
+
         // extract access token from response
         parseOAuthResponse(token) {
             let results = {};

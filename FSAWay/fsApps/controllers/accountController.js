@@ -76,6 +76,25 @@ var FsaWayApp;
             return ExternalLoginController;
         })();
         Controllers.ExternalLoginController = ExternalLoginController;
+        var ConfirmEmailController = (function () {
+            function ConfirmEmailController(accountService, $http, $routeParams, $location) {
+                var _this = this;
+                this.accountService = accountService;
+                this.$http = $http;
+                this.$routeParams = $routeParams;
+                this.$location = $location;
+                var userId = $routeParams['userId'];
+                var code = $routeParams['code'];
+                accountService.confirmEmail(userId, code)
+                    .then(function (result) {
+                    _this.$location.path('/');
+                }).catch(function (result) {
+                    _this.validationMessages = result;
+                });
+            }
+            return ConfirmEmailController;
+        })();
+        Controllers.ConfirmEmailController = ConfirmEmailController;
         var ExternalRegisterController = (function () {
             function ExternalRegisterController(accountService, $location) {
                 this.accountService = accountService;
@@ -97,3 +116,4 @@ var FsaWayApp;
         Controllers.ExternalRegisterController = ExternalRegisterController;
     })(Controllers = FsaWayApp.Controllers || (FsaWayApp.Controllers = {}));
 })(FsaWayApp || (FsaWayApp = {}));
+//# sourceMappingURL=accountController.js.map

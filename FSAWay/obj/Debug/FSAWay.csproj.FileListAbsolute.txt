@@ -87,3 +87,5 @@ C:\Users\william\Documents\Visual Studio 2015\Projects\FSAWay\FSAWay\obj\Debug\F
 C:\Users\william\Documents\Visual Studio 2015\Projects\FSAWay\FSAWay\obj\Debug\CoderCamps-SPA.dll
 C:\Users\william\Documents\Visual Studio 2015\Projects\FSAWay\FSAWay\obj\Debug\CoderCamps-SPA.pdb
 C:\Users\william\Documents\Visual Studio 2015\Projects\FSAWay\FSAWay\obj\Debug\FSAWay.csprojResolveAssemblyReference.cache
+C:\Users\william\Documents\Visual Studio 2015\Projects\FSAWay\FSAWay\bin\SendGrid.SmtpApi.dll
+C:\Users\william\Documents\Visual Studio 2015\Projects\FSAWay\FSAWay\bin\SendGridMail.dll

@@ -1,6 +1,8 @@
 ﻿namespace FsaWayApp.Services {
 
+
     export class HealthproductService {
+
         private HealthproductResource;
 
         private UserResource;

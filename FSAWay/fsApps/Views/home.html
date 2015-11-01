@@ -60,11 +60,14 @@
                 <div class="col-md-4">
                     <div class="jumbotron row2">
                         <h3>
-                            Hello, world!
+                            Participating Drugstores
                         </h3>
-                        <p>
-                            This is a template for a simple marketing or informational website. It includes a large callout called the hero unit and three supporting pieces of content. Use it as a starting point to create something more unique.
-                        </p>
+                        <div>
+                            <a href="/">Home</a> /
+                            <a href="/about">About</a> /
+                            <a href="/login" ng-show="!account.isLoggedIn()">login</a>
+                            <a href="#" ng-click="account.logout()" ng-show="account.isLoggedIn()">logout</a>
+                        </div>
                         <p>
                             <a class="btn btn-primary btn-large" href="#">Learn more</a>
                         </p>

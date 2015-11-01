@@ -11,20 +11,17 @@ var FsaWayApp;
             return HomeController;
         })();
         Controllers.HomeController = HomeController;
-        var AddController = (function () {
-            function AddController(healthproductService, $location) {
-                this.healthproductService = healthproductService;
-                this.$location = $location;
-            }
-            AddController.prototype.save = function () {
-                var _this = this;
-                this.healthproductService.save(this.healthproductToAdd).then(function () {
-                    _this.$location.path('/');
-                });
-            };
-            return AddController;
-        })();
-        Controllers.AddController = AddController;
+        //export class AddController {
+        //    public healthproductToAdd;
+        //    public save() {
+        //        this.healthproductService.save(this.healthproductToAdd).then(() => {
+        //            this.$location.path('/');
+        //        });
+        //    }
+        //    constructor(
+        //        private healthproductService: FsaWayApp.Services.HealthproductService,
+        //        private $location: angular.ILocationService) { }
+        //}
         var UserAdminController = (function () {
             function UserAdminController(userService) {
                 this.userService = userService;
@@ -53,3 +50,4 @@ var FsaWayApp;
         Controllers.TermController = TermController;
     })(Controllers = FsaWayApp.Controllers || (FsaWayApp.Controllers = {}));
 })(FsaWayApp || (FsaWayApp = {}));
+//# sourceMappingURL=controllers.js.map

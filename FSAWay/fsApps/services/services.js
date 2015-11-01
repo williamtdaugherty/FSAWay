@@ -19,3 +19,4 @@ var FsaWayApp;
         angular.module('FsaWayApp').service('healthproductService', HealthproductService);
     })(Services = FsaWayApp.Services || (FsaWayApp.Services = {}));
 })(FsaWayApp || (FsaWayApp = {}));
+//# sourceMappingURL=services.js.map

@@ -336,7 +336,8 @@ textarea {
 }
 
 a {
-  color: #428bca;
+    color:white;
+  /*color: #428bca;*/
   text-decoration: none;
 }
 
@@ -4390,7 +4391,8 @@ textarea.input-group-sm > .input-group-btn > .btn {
 }
 
 .navbar-default .navbar-brand {
-  color: #777777;
+  /*color: #777777;*/
+  color:white;
 }
 
 .navbar-default .navbar-brand:hover,

@@ -75,6 +75,8 @@
         }
     }
 
+    export class ConfirmEmailController {        public validationMessages;        constructor(            private accountService: FsaWayApp.Services.AccountService,            private $http: ng.IHttpService,            private $routeParams: ng.route.IRouteParamsService,            private $location: ng.ILocationService        ) {            let userId = $routeParams['userId'];            let code = $routeParams['code'];            accountService.confirmEmail(userId, code)                .then((result) => {                    this.$location.path('/');                }).catch((result) => {                    this.validationMessages = result;                });        }    }
+
 
     export class ExternalRegisterController {
         private externalAccessToken;

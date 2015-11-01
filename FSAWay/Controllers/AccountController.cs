@@ -123,8 +123,10 @@ namespace FsaWayApp.Controllers
                 return BadRequest(ModelState);
             }
 
-            IdentityResult result = await UserManager.ChangePasswordAsync(User.Identity.GetUserId(), model.OldPassword,
-                model.NewPassword);
+            //IdentityResult result = await UserManager.ChangePasswordAsync(User.Identity.GetUserId(), model.OldPassword,
+            //    model.NewPassword);
+
+            IdentityResult result = await UserManager.AddPasswordAsync(User.Identity.GetUserId(), model.NewPassword);
 
             if (!result.Succeeded)
             {
@@ -190,6 +192,46 @@ namespace FsaWayApp.Controllers
 
             return Ok();
         }
+
+
+
+        //// POST api/Account/AddExternalLogin
+        //[Route("AddExternalLogin")]
+        //public async Task<IHttpActionResult> AddExternalLogin(AddExternalLoginBindingModel model)
+        //{
+        //    if (!ModelState.IsValid)
+        //    {
+        //        return BadRequest(ModelState);
+        //    }
+
+        //    Authentication.SignOut(DefaultAuthenticationTypes.ExternalCookie);
+
+        //    AuthenticationTicket ticket = AccessTokenFormat.Unprotect(model.ExternalAccessToken);
+
+        //    if (ticket == null || ticket.Identity == null || (ticket.Properties != null
+        //        && ticket.Properties.ExpiresUtc.HasValue
+        //        && ticket.Properties.ExpiresUtc.Value < DateTimeOffset.UtcNow))
+        //    {
+        //        return BadRequest("External login failure.");
+        //    }
+
+        //    ExternalLoginData externalData = ExternalLoginData.FromIdentity(ticket.Identity);
+
+        //    if (externalData == null)
+        //    {
+        //        return BadRequest("The external login is already associated with an account.");
+        //    }
+
+        //    IdentityResult result = await UserManager.AddLoginAsync(User.Identity.GetUserId(),
+        //        new UserLoginInfo(externalData.LoginProvider, externalData.ProviderKey));
+
+        //    if (!result.Succeeded)
+        //    {
+        //        return GetErrorResult(result);
+        //    }
+
+        //    return Ok();
+        //}
 
         // POST api/Account/RemoveLogin
         [Route("RemoveLogin")]
@@ -337,8 +379,27 @@ namespace FsaWayApp.Controllers
                 return GetErrorResult(result);
             }
 
+
+
+
+
+
+
+
+            // Uncomment to send an email confirmation
+            string code = await UserManager.GenerateEmailConfirmationTokenAsync(user.Id);            code = System.Web.HttpUtility.UrlEncode(code);            var callbackUrl = String.Format("/confirmEmail?userId={0}&code={1}", user.Id, code);            var absoluteCallbackUrl = Request.GetUrlHelper().Content(callbackUrl);            await UserManager.SendEmailAsync(user.Id, "Confirm your account", "Please confirm your account by clicking <a href=\"" + absoluteCallbackUrl + "\">here</a>");
+
+
             return Ok();
         }
+        // POST api/Account/ConfirmEmail
+        [AllowAnonymous]        [Route("ConfirmEmail")]        public async Task<IHttpActionResult> ConfirmEmail(ConfirmEmailBindingModel model)        {            var result = await UserManager.ConfirmEmailAsync(model.UserId, model.Code);            if (!result.Succeeded)
+            {                return BadRequest("Invalid confirmation code!");            }            return Ok();        }
+
+
+
+
+
 
         // POST api/Account/RegisterExternal
         [OverrideAuthentication]
