@@ -289,6 +289,10 @@
     <Content Include="Content\Logo_Icons\fsaway_logo.png" />
     <Content Include="Content\Logo_Icons\products_slide.png" />
     <Content Include="Content\Logo_Icons\qrcode.png" />
+    <Content Include="Content\Logo_Icons\register_now.png" />
+    <Content Include="Content\Logo_Icons\Rite-Aid_square_large.png" />
+    <Content Include="Content\Logo_Icons\rssMCPXC_400x400.png" />
+    <Content Include="Content\Logo_Icons\walgreens.png" />
     <Content Include="Content\style.css" />
     <Content Include="Content\ui-bootstrap-csp.css" />
     <Content Include="favicon.ico" />
