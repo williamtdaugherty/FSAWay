@@ -8,11 +8,12 @@ using System.Web.Http;
 
 namespace FsaWayApp.API
 {
-    public class HealthProducts : ApiController
+    public class HealthProductsController : ApiController
     {
         private ApplicationDbContext _db = new ApplicationDbContext();
 
         [Authorize]
+        
 
         public ICollection<HealthProduct> Get()
         {

@@ -3,17 +3,6 @@
 
     export class HomeController {
 
-        public healthproducts;
-
-        constructor
-            (
-            private healthproductService: FsaWayApp.Services.HealthproductService,
-            private $location: angular.ILocationService
-            ) {
-            this.healthproducts = this.healthproductService.listHealthproducts();
-
-        }
-
 
     }
 
@@ -48,6 +37,18 @@
 
 
     export class ProductController {
+
+        public healthproducts;
+
+        constructor
+
+            (
+            private healthproductService: FsaWayApp.Services.HealthproductService,
+            private $location: angular.ILocationService
+            ) {
+            this.healthproducts = this.healthproductService.listHealthproducts();
+            debugger;
+        }
 
     }
 

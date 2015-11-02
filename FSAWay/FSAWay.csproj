@@ -201,6 +201,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="API\FsaController.cs" />
     <Compile Include="API\UsersController.cs" />
     <Compile Include="API\HealthProductsController.cs" />
     <Compile Include="App_Start\BundleConfig.cs" />

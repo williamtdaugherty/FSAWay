@@ -3,10 +3,7 @@ var FsaWayApp;
     var Controllers;
     (function (Controllers) {
         var HomeController = (function () {
-            function HomeController(healthproductService, $location) {
-                this.healthproductService = healthproductService;
-                this.$location = $location;
-                this.healthproducts = this.healthproductService.listHealthproducts();
+            function HomeController() {
             }
             return HomeController;
         })();
@@ -31,7 +28,11 @@ var FsaWayApp;
         })();
         Controllers.UserAdminController = UserAdminController;
         var ProductController = (function () {
-            function ProductController() {
+            function ProductController(healthproductService, $location) {
+                this.healthproductService = healthproductService;
+                this.$location = $location;
+                this.healthproducts = this.healthproductService.listHealthproducts();
+                debugger;
             }
             return ProductController;
         })();

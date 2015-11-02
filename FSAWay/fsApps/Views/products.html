@@ -40,14 +40,13 @@
                         </tr>
                     </thead>
                     <tbody>
-                        <tr>
+                        <tr ng-repeat="healthproduct in controller.healthproducts">
+
                             <td>
                                #
                             </td>
                             <td>
-                                <ul ng-repeat="healthproduct in controller.healthproducts">
-                                    {{healthproduct.brand}}
-                                </ul>
+                                {{healthproduct.brand}}
                             </td>
                             <td>
                                 Product Name---
