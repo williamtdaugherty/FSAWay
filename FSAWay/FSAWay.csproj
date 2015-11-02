@@ -297,7 +297,6 @@
     <Content Include="Content\ui-bootstrap-csp.css" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
-    <Content Include="fsApps\views\about.html" />
     <Content Include="fsApps\views\admin.html" />
     <Content Include="fsApps\views\confirmEmail.html" />
     <Content Include="fsApps\views\products.html" />
@@ -380,6 +379,7 @@
     <Content Include="Content\engine1\ws-ctrl-slim.eot" />
     <Content Include="Content\engine1\ws-ctrl-slim.ttf" />
     <Content Include="Content\engine1\ws-ctrl-slim.woff" />
+    <None Include="Properties\PublishProfiles\HostGator.pubxml" />
     <None Include="Scripts\jquery-2.1.4.intellisense.js" />
     <Content Include="Scripts\i18n\angular-locale_aa-dj.js" />
     <Content Include="Scripts\i18n\angular-locale_aa-er.js" />

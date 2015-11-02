@@ -3,34 +3,75 @@
 
 
 <div class="container">
-    <div class="row">
-        <div class="col-md-12">
             <center><img src=" ../../Content/Logo_Icons/products_slide.png" />"</center>
             <p>
-                List of eligible FSA products.</small>
+               <center><h2>List of eligible FSA products.</h2></center>
             </p>
         </div>
-    </div>
-    <div class="row">
-        <div class="col-md-4">
-            product 
+        <div class="row">
+            <div class="col-md-6">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>
+                                #
+                            </th>
+                            <th>
+                                Brand
+                            </th>
+                            <th>
+                                Product
+                            </th>
+                            <th>
+                                Manufacturer
+                            </th>
+                            <th>
+                                Wholesale Price
+                            </th>
+                            <th>
+                                Customer Price
+                            </th>
+                            <th>
+                                Product Category
+                            </th>
+                            <th>
+                                Qualify
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                               #
+                            </td>
+                            <td>
+                                <ul ng-repeat="healthproduct in controller.healthproducts">
+                                    {{healthproduct.brand}}
+                                </ul>
+                            </td>
+                            <td>
+                                Product Name---
+                            </td>
+                            <td>
+                                Manufacturer---
+                            </td>
+                            <td>
+                                Wholesale Price---
+                            </td>
+                            <td>
+                                Customer Price---
+                            </td>
+                            <td>
+                                Product Category---
+                            </td>
+                            <td>
+                                Qualify---
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="col-md-6">
+            </div>
         </div>
-        <div class="col-md-4">
-            product
-        </div>
-        <div class="col-md-4">
-            product
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-md-4">
-            product
-        </div>
-        <div class="col-md-4">
-            product
-        </div>
-        <div class="col-md-4">
-            product
-        </div>
-    </div>
-</div>
+  

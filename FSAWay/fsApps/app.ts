@@ -13,11 +13,6 @@
                 controllerAs: 'controller'
             })
 
-            .when('/about', {
-                templateUrl: '/fsApps/views/about.html',
-                controller: FsaWayApp.Controllers.AboutController,
-                controllerAs: 'controller'
-            })
      
             .when('/useradmin', {
                 templateUrl: '/fsApps/views/UserAdmin.html',
