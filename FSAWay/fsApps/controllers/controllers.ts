@@ -6,34 +6,38 @@
 
     }
 
-    //export class AddController {
-    //    public healthproductToAdd;
-
-    //    public save() {
-    //        this.healthproductService.save(this.healthproductToAdd).then(() => {
-    //            this.$location.path('/');
-    //        });
-             
-    //    }
-
-    //    constructor(
-    //        private healthproductService: FsaWayApp.Services.HealthproductService,
-    //        private $location: angular.ILocationService) { }
-    //}
-
-
 
     export class UserAdminController {
 
-        public users;
+        public healthProducts;
 
-        constructor(private userService: FsaWayApp.Services.HealthproductService) {
-            this.users = this.userService.listUsers();
+        constructor(private healthproductService: FsaWayApp.Services.HealthproductService) {
+            this.healthProducts = this.healthproductService.listHealthproducts();
 
 
         }
 
     }
+
+    export class AddController {
+        public healthProductToAdd;
+
+        public save() {
+            this.healthproductService.save(this.healthProductToAdd).then(() => {
+                this.$location.path('/');
+            });
+        }
+
+        constructor(
+            private healthproductService: FsaWayApp.Services.HealthproductService,
+            private $location: angular.ILocationService
+        ) { }
+
+    }
+
+
+
+
 
 
     export class ProductController {
@@ -47,7 +51,7 @@
             private $location: angular.ILocationService
             ) {
             this.healthproducts = this.healthproductService.listHealthproducts();
-            debugger;
+
         }
 
     }
@@ -57,6 +61,8 @@
     }
 
     export class TermController {
+
+   
 
     }
 

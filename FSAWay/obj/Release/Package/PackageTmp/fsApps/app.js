@@ -8,7 +8,7 @@ var FsaWayApp;
             controllerAs: 'controller'
         })
             .when('/useradmin', {
-            templateUrl: '/fsApps/views/UserAdmin.html',
+            templateUrl: '/fsApps/views/useradmin.html',
             controller: FsaWayApp.Controllers.UserAdminController,
             controllerAs: 'controller'
         })
@@ -20,6 +20,11 @@ var FsaWayApp;
             .when('/terms', {
             templateUrl: '/fsApps/views/terms.html',
             controller: FsaWayApp.Controllers.TermController,
+            controllerAs: 'controller'
+        })
+            .when('/addproduct', {
+            templateUrl: '/fsApps/views/addproduct.html',
+            controller: FsaWayApp.Controllers.AddController,
             controllerAs: 'controller'
         })
             .when('/login', {

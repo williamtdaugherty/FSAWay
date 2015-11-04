@@ -277,6 +277,7 @@ table {
   }
   .navbar {
     display: none;
+
   }
   .table td,
   .table th {
@@ -2015,7 +2016,7 @@ textarea.input-lg {
   -webkit-user-select: none;
      -moz-user-select: none;
       -ms-user-select: none;
-       -o-user-select: none;
+       /*-o-user-select: none;*/
           user-select: none;
 }
 
@@ -4391,7 +4392,6 @@ textarea.input-group-sm > .input-group-btn > .btn {
 }
 
 .navbar-default .navbar-brand {
-  /*color: #777777;*/
   color:white;
 }
 
@@ -4435,11 +4435,11 @@ textarea.input-group-sm > .input-group-btn > .btn {
 
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
-  background-color: #dddddd;
+  background-color: #fff;
 }
 
 .navbar-default .navbar-toggle .icon-bar {
-  background-color: #cccccc;
+  background-color: #fff;
 }
 
 .navbar-default .navbar-collapse,
@@ -4468,17 +4468,17 @@ textarea.input-group-sm > .input-group-btn > .btn {
 }
 
 .navbar-default .navbar-nav > .dropdown > a .caret {
-  border-top-color: #777777;
-  border-bottom-color: #777777;
+  border-top-color: white;
+  border-bottom-color: white;
 }
 
 @media (max-width: 767px) {
   .navbar-default .navbar-nav .open .dropdown-menu > li > a {
-    color: #777777;
+    color: white;
   }
   .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
   .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
-    color: #333333;
+    color: #fff;
     background-color: transparent;
   }
   .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
@@ -4496,11 +4496,11 @@ textarea.input-group-sm > .input-group-btn > .btn {
 }
 
 .navbar-default .navbar-link {
-  color: #777777;
+  color:white;
 }
 
 .navbar-default .navbar-link:hover {
-  color: #333333;
+  color: #ffffff;
 }
 
 .navbar-inverse {
@@ -4609,7 +4609,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
   .navbar-inverse .navbar-nav .open .dropdown-menu > .disabled > a,
   .navbar-inverse .navbar-nav .open .dropdown-menu > .disabled > a:hover,
   .navbar-inverse .navbar-nav .open .dropdown-menu > .disabled > a:focus {
-    color: #444444;
+    color: #fff;
     background-color: transparent;
   }
 }
@@ -5165,7 +5165,7 @@ a.thumbnail:focus {
 .progress.active .progress-bar {
   -webkit-animation: progress-bar-stripes 2s linear infinite;
      -moz-animation: progress-bar-stripes 2s linear infinite;
-      -ms-animation: progress-bar-stripes 2s linear infinite;
+      /*-ms-animation: progress-bar-stripes 2s linear infinite;*/
        -o-animation: progress-bar-stripes 2s linear infinite;
           animation: progress-bar-stripes 2s linear infinite;
 }

@@ -13,7 +13,7 @@ namespace FsaWayApp.API
         private ApplicationDbContext _db = new ApplicationDbContext();
 
         [Authorize]
-        
+
 
         public ICollection<HealthProduct> Get()
         {
@@ -22,11 +22,32 @@ namespace FsaWayApp.API
         }
 
 
-       
+        public IHttpActionResult Post(HealthProduct healthproduct)
+        {
+            if (healthproduct == null)
+            {
+                return BadRequest("Product missing");
+            }
+
+            if (!ModelState.IsValid)
+            {
+                return BadRequest(ModelState);
+            }
+
+            if (healthproduct.Id == 0)
+            {
+
+                _db.HealthProducts.Add(healthproduct);
+                _db.SaveChanges();
+                return Created("/healthproducts/" + healthproduct.Id, healthproduct);
+
+            }
+            else
+            {
+                return BadRequest("editing");
+            }
+
         }
-
-
-
-
     }
 
+}

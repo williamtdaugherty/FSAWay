@@ -10,6 +10,9 @@ var FsaWayApp;
             HealthproductService.prototype.listHealthproducts = function () {
                 return this.HealthproductResource.query();
             };
+            HealthproductService.prototype.save = function (healthProduct) {
+                return this.HealthproductResource.save(healthProduct).$promise;
+            };
             HealthproductService.prototype.listUsers = function () {
                 return this.UserResource.query();
             };

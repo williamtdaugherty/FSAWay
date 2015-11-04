@@ -13,9 +13,8 @@
                 controllerAs: 'controller'
             })
 
-     
             .when('/useradmin', {
-                templateUrl: '/fsApps/views/UserAdmin.html',
+                templateUrl: '/fsApps/views/useradmin.html',
                 controller: FsaWayApp.Controllers.UserAdminController,
                 controllerAs: 'controller'       
                   
@@ -35,6 +34,11 @@
 
             })
 
+            .when('/addproduct', {
+                templateUrl: '/fsApps/views/addproduct.html',
+                controller: FsaWayApp.Controllers.AddController,
+                controllerAs: 'controller'
+            })
 
             .when('/login', {
                 templateUrl: '/fsApps/views/login.html',

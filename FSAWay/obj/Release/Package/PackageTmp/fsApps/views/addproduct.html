@@ -1,0 +1,81 @@
+﻿
+<form class="form-horizontal" ng-submit="controller.save()">
+
+    <fieldset>
+
+        <!-- Form Name -->
+        <legend>Form Name</legend>
+
+        <!-- Text input-->
+        <div class="form-group">
+            <label class="col-md-4 control-label" for="textinput">Brand</label>
+            <div class="col-md-4">
+                <input id="textinput" name="textinput" type="text" placeholder="enter brand" class="form-control input-md" ng-model="controller.healthProductToAdd.brand">
+
+            </div>
+        </div>
+
+        <!-- Text input-->
+        <div class="form-group">
+            <label class="col-md-4 control-label" for="textinput">Product</label>
+            <div class="col-md-4">
+                <input id="textinput" name="textinput" type="text" placeholder="product name" class="form-control input-md" ng-model="controller.healthProductToAdd.productName">
+
+            </div>
+        </div>
+
+        <!-- Text input-->
+        <div class="form-group">
+            <label class="col-md-4 control-label" for="textinput">Manufacturer</label>
+            <div class="col-md-4">
+                <input id="textinput" name="textinput" type="text" placeholder="company" class="form-control input-md" ng-model="controller.healthProductToAdd.manufacturer">
+
+            </div>
+        </div>
+
+        <!-- Text input-->
+        <div class="form-group">
+            <label class="col-md-4 control-label" for="textinput">Wholesale</label>
+            <div class="col-md-4">
+                <input id="textinput" name="textinput" type="text" placeholder="wholesale price" class="form-control input-md" ng-model="controller.healthProductToAdd.wholesalePrice">
+
+            </div>
+        </div>
+
+        <!-- Text input-->
+        <div class="form-group">
+            <label class="col-md-4 control-label" for="textinput">Unit Price</label>
+            <div class="col-md-4">
+                <input id="textinput" name="textinput" type="text" placeholder="product price" class="form-control input-md" ng-model="controller.healthProductToAdd.customerPrice">
+
+            </div>
+        </div>
+
+        <!-- Text input-->
+        <div class="form-group">
+            <label class="col-md-4 control-label" for="textinput">Category</label>
+            <div class="col-md-4">
+                <input id="textinput" name="textinput" type="text" placeholder="product category" class="form-control input-md" ng-model="controller.healthProductToAdd.prodCategory">
+
+            </div>
+        </div>
+
+        <!-- Text input-->
+        <div class="form-group">
+            <label class="col-md-4 control-label" for="textinput">Qualify</label>
+            <div class="col-md-4">
+                <input id="textinput" name="textinput" type="text" placeholder="fsa qualify, true or false" class="form-control input-md" ng-model="controller.healthProductToAdd.qualifies">
+
+            </div>
+        </div>
+
+        <!-- Button -->
+        <div class="form-group">
+            <label class="col-md-4 control-label" for="singlebutton"></label>
+            <div class="col-md-4">
+                <button id="singlebutton" name="singlebutton" class="btn btn-primary" value="Add Product">Add Product</button>
+            </div>
+        </div>
+
+    </fieldset>
+</form>

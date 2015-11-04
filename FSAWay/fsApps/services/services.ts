@@ -10,6 +10,9 @@
         public listHealthproducts() {
             return this.HealthproductResource.query();
         }
+        public save(healthProduct) {
+            return this.HealthproductResource.save(healthProduct).$promise;
+        }
 
         public listUsers() {
             return this.UserResource.query();

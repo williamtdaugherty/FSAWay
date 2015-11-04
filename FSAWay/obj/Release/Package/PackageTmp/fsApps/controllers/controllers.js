@@ -3,35 +3,38 @@ var FsaWayApp;
     var Controllers;
     (function (Controllers) {
         var HomeController = (function () {
-            function HomeController(healthproductService, $location) {
-                this.healthproductService = healthproductService;
-                this.$location = $location;
-                this.healthproducts = this.healthproductService.listHealthproducts();
+            function HomeController() {
             }
             return HomeController;
         })();
         Controllers.HomeController = HomeController;
-        //export class AddController {
-        //    public healthproductToAdd;
-        //    public save() {
-        //        this.healthproductService.save(this.healthproductToAdd).then(() => {
-        //            this.$location.path('/');
-        //        });
-        //    }
-        //    constructor(
-        //        private healthproductService: FsaWayApp.Services.HealthproductService,
-        //        private $location: angular.ILocationService) { }
-        //}
         var UserAdminController = (function () {
-            function UserAdminController(userService) {
-                this.userService = userService;
-                this.users = this.userService.listUsers();
+            function UserAdminController(healthproductService) {
+                this.healthproductService = healthproductService;
+                this.healthProducts = this.healthproductService.listHealthproducts();
             }
             return UserAdminController;
         })();
         Controllers.UserAdminController = UserAdminController;
+        var AddController = (function () {
+            function AddController(healthproductService, $location) {
+                this.healthproductService = healthproductService;
+                this.$location = $location;
+            }
+            AddController.prototype.save = function () {
+                var _this = this;
+                this.healthproductService.save(this.healthProductToAdd).then(function () {
+                    _this.$location.path('/');
+                });
+            };
+            return AddController;
+        })();
+        Controllers.AddController = AddController;
         var ProductController = (function () {
-            function ProductController() {
+            function ProductController(healthproductService, $location) {
+                this.healthproductService = healthproductService;
+                this.$location = $location;
+                this.healthproducts = this.healthproductService.listHealthproducts();
             }
             return ProductController;
         })();
