@@ -61,7 +61,11 @@
                 controllerAs: 'controller'
             })
 
-            .when('/confirmEmail', {                templateUrl: '/ngApp/views/confirmEmail.html',                controller: FsaWayApp.Controllers.ConfirmEmailController,                controllerAs: 'controller'            })
+            .when('/confirmEmail', {
+                templateUrl: '/ngApp/views/confirmEmail.html',
+                controller: FsaWayApp.Controllers.ConfirmEmailController,
+                controllerAs: 'controller'
+            })
 
             
             .otherwise({

@@ -1,0 +1,40 @@
+﻿
+<form class="form-horizontal" ng-submit="controller.login()">
+    <fieldset>
+
+        <legend>Account Login</legend>
+        <ul>
+            <li ng-repeat="error in controller.validationMessages">
+                {{error}}
+            </li>
+        </ul>
+
+        <!-- Text input-->
+        <div class="form-group">
+            <label class="col-md-4 control-label" for="textinput">Email Address</label>
+            <div class="col-md-4">
+                <input id="textinput" name="textinput" type="text" placeholder="enter valid email" class="form-control input-md" ng-model="controller.loginUser.userName">
+
+            </div>
+        </div>
+
+        <!-- Text input-->
+        <div class="form-group">
+            <label class="col-md-4 control-label" for="textinput">Password</label>
+            <div class="col-md-4">
+                <input id="textinput" name="textinput" type="text" placeholder="account password" class="form-control input-md" ng-model="controller.loginUser.password">
+
+            </div>
+        </div>
+
+        <!-- Button -->
+        <div class="form-group">
+            <label class="col-md-4 control-label" for="singlebutton"></label>
+            <div class="col-md-4">
+                <button id="singlebutton" name="singlebutton" class="btn btn-primary" value="Login">Login</button>
+            </div>
+        </div>
+
+
+    </fieldset>
+</form>

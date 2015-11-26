@@ -1,0 +1,59 @@
+﻿
+
+
+
+<div class="container">
+            <center><img src=" ../../Content/Logo_Icons/products_slide.png" />"</center>
+            <p>
+               <center><h3>List of eligible FSA products at your local drugstore. Must be logged in to see.</h3></center>
+            </p>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <table class="table" width="150">
+
+                    <thead>
+                        <tr>
+                            <th>
+                                Brand
+                            </th>
+                            <th>
+                                Product
+                            </th>
+                            <th>
+                                Price
+                            </th>
+                            <th>
+                                Category
+                            </th>
+                            <th>
+                                Qualify
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+
+                        <tr ng-repeat="healthproduct in controller.healthproducts">
+
+                            <td>
+                                {{healthproduct.brand}}
+                            </td>
+                            <td>
+                                {{healthproduct.productName}}
+                            </td>
+                            <td>
+                                {{healthproduct.customerPrice}}
+                            </td>
+                            <td>
+                                {{healthproduct.prodCategory}}
+                            </td>
+                            <td>
+                                {{healthproduct.qualifies}}
+                            </td>
+                            
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+           </div>
+  

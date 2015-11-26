@@ -1,0 +1,91 @@
+﻿
+<fieldset>
+    <ul>
+
+        <li ng-repeat="account in controller.users">
+            {{account.email}}
+            {{account.firstName}}
+            {{account.lastName}}
+        </li>
+    </ul>
+
+</fieldset>
+
+<!--Manager add product control-->
+<div class="container">
+
+    <p>
+        <center><h2>Manager list</h2></center>
+    </p>
+</div>
+
+<p>
+    <a href="/addproduct">Add Product</a>
+</p>
+
+<fieldset>
+<div class="row">
+    <div class="col-md-12">
+        <table class="table" width="140">
+
+            <thead>
+                <tr>
+                    <th>
+                        Sku#
+                    </th>
+                    <th>
+                        Brand
+                    </th>
+                    <th>
+                        Product
+                    </th>
+                    <th>
+                        Manufacturer
+                    </th>
+                    <th>
+                        Wholesale
+                    <th>
+                        Unit Price
+                    </th>
+                    <th>
+                        Category
+                    </th>
+                    <th>
+                        Qualify
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+
+                <tr ng-repeat="healthproduct in controller.healthProducts">
+
+                    <td>
+                        #
+                    </td>
+                    <td>
+                        {{healthproduct.brand}}
+                    </td>
+                    <td>
+                        {{healthproduct.productName}}
+                    </td>
+                    <td>
+                        {{healthproduct.manufacturer}}
+                    </td>
+                    <td>
+                        {{healthproduct.wholesalePrice}}
+                    </td>
+                    <td>
+                        {{healthproduct.customerPrice}}
+                    </td>
+                    <td>
+                        {{healthproduct.prodCategory}}
+                    </td>
+                    <td>
+                        {{healthproduct.qualifies}}
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+</fieldset>

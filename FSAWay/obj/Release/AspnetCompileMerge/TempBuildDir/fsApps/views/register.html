@@ -1,0 +1,45 @@
+﻿
+<form class="form-horizontal" ng-submit="controller.register()">
+    <fieldset>
+
+        <!-- Form Name -->
+        <legend>Register New Account</legend>
+
+        <!-- Text input-->
+        <div class="form-group">
+            <label class="col-md-4 control-label" for="textinput">Email Address</label>
+            <div class="col-md-4">
+                <input id="textinput" name="textinput" type="text" placeholder="enter valid email address" class="form-control input-md" ng-model="controller.registerUser.email">
+
+            </div>
+        </div>
+
+        <!-- Text input-->
+        <div class="form-group">
+            <label class="col-md-4 control-label" for="textinput">Password</label>
+            <div class="col-md-4">
+                <input id="textinput" name="textinput" type="text" placeholder="password" class="form-control input-md" ng-model="controller.registerUser.password">
+
+            </div>
+        </div>
+
+        <!-- Text input-->
+        <div class="form-group">
+            <label class="col-md-4 control-label" for="textinput">Confirm Email</label>
+            <div class="col-md-4">
+                <input id="textinput" name="textinput" type="text" placeholder="enter email address again" class="form-control input-md" ng-model="controller.registerUser.confirmPassword">
+
+            </div>
+        </div>
+
+        <!-- Button -->
+        <div class="form-group">
+            <label class="col-md-4 control-label" for="singlebutton"></label>
+            <div class="col-md-4">
+                <button id="singlebutton" name="singlebutton" class="btn btn-primary">Submit</button>
+            </div>
+        </div>
+
+
+    </fieldset>
+</form>

@@ -89,3 +89,276 @@ C:\Users\william\Documents\Visual Studio 2015\Projects\FSAWay\FSAWay\obj\Debug\C
 C:\Users\william\Documents\Visual Studio 2015\Projects\FSAWay\FSAWay\obj\Debug\FSAWay.csprojResolveAssemblyReference.cache
 C:\Users\william\Documents\Visual Studio 2015\Projects\FSAWay\FSAWay\bin\SendGrid.SmtpApi.dll
 C:\Users\william\Documents\Visual Studio 2015\Projects\FSAWay\FSAWay\bin\SendGridMail.dll
+C:\Users\william\Downloads\Files\FSAWay-original_do_not_delete\FSAWay\bin\roslyn\csc.exe
+C:\Users\william\Downloads\Files\FSAWay-original_do_not_delete\FSAWay\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\william\Downloads\Files\FSAWay-original_do_not_delete\FSAWay\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\william\Downloads\Files\FSAWay-original_do_not_delete\FSAWay\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\william\Downloads\Files\FSAWay-original_do_not_delete\FSAWay\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\william\Downloads\Files\FSAWay-original_do_not_delete\FSAWay\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\william\Downloads\Files\FSAWay-original_do_not_delete\FSAWay\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\william\Downloads\Files\FSAWay-original_do_not_delete\FSAWay\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\william\Downloads\Files\FSAWay-original_do_not_delete\FSAWay\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\william\Downloads\Files\FSAWay-original_do_not_delete\FSAWay\bin\roslyn\vbc.exe
+C:\Users\william\Downloads\Files\FSAWay-original_do_not_delete\FSAWay\bin\roslyn\VBCSCompiler.exe
+C:\Users\william\Downloads\Files\FSAWay-original_do_not_delete\FSAWay\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\william\Downloads\Files\FSAWay-original_do_not_delete\FSAWay\bin\CoderCamps-SPA.dll.config
+C:\Users\william\Downloads\Files\FSAWay-original_do_not_delete\FSAWay\bin\CoderCamps-SPA.dll
+C:\Users\william\Downloads\Files\FSAWay-original_do_not_delete\FSAWay\bin\CoderCamps-SPA.pdb
+C:\Users\william\Downloads\Files\FSAWay-original_do_not_delete\FSAWay\bin\Antlr3.Runtime.dll
+C:\Users\william\Downloads\Files\FSAWay-original_do_not_delete\FSAWay\bin\EntityFramework.dll
+C:\Users\william\Downloads\Files\FSAWay-original_do_not_delete\FSAWay\bin\EntityFramework.SqlServer.dll
+C:\Users\william\Downloads\Files\FSAWay-original_do_not_delete\FSAWay\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\william\Downloads\Files\FSAWay-original_do_not_delete\FSAWay\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\william\Downloads\Files\FSAWay-original_do_not_delete\FSAWay\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\william\Downloads\Files\FSAWay-original_do_not_delete\FSAWay\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\william\Downloads\Files\FSAWay-original_do_not_delete\FSAWay\bin\Microsoft.Owin.dll
+C:\Users\william\Downloads\Files\FSAWay-original_do_not_delete\FSAWay\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\william\Downloads\Files\FSAWay-original_do_not_delete\FSAWay\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\william\Downloads\Files\FSAWay-original_do_not_delete\FSAWay\bin\Microsoft.Owin.Security.dll
+C:\Users\william\Downloads\Files\FSAWay-original_do_not_delete\FSAWay\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\william\Downloads\Files\FSAWay-original_do_not_delete\FSAWay\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\william\Downloads\Files\FSAWay-original_do_not_delete\FSAWay\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\william\Downloads\Files\FSAWay-original_do_not_delete\FSAWay\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\william\Downloads\Files\FSAWay-original_do_not_delete\FSAWay\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\william\Downloads\Files\FSAWay-original_do_not_delete\FSAWay\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\william\Downloads\Files\FSAWay-original_do_not_delete\FSAWay\bin\Newtonsoft.Json.dll
+C:\Users\william\Downloads\Files\FSAWay-original_do_not_delete\FSAWay\bin\Ninject.dll
+C:\Users\william\Downloads\Files\FSAWay-original_do_not_delete\FSAWay\bin\Ninject.Web.Common.dll
+C:\Users\william\Downloads\Files\FSAWay-original_do_not_delete\FSAWay\bin\Ninject.Web.WebApi.dll
+C:\Users\william\Downloads\Files\FSAWay-original_do_not_delete\FSAWay\bin\Ninject.Web.WebApi.WebHost.dll
+C:\Users\william\Downloads\Files\FSAWay-original_do_not_delete\FSAWay\bin\Owin.dll
+C:\Users\william\Downloads\Files\FSAWay-original_do_not_delete\FSAWay\bin\SendGrid.SmtpApi.dll
+C:\Users\william\Downloads\Files\FSAWay-original_do_not_delete\FSAWay\bin\SendGridMail.dll
+C:\Users\william\Downloads\Files\FSAWay-original_do_not_delete\FSAWay\bin\System.Net.Http.Formatting.dll
+C:\Users\william\Downloads\Files\FSAWay-original_do_not_delete\FSAWay\bin\System.Web.Helpers.dll
+C:\Users\william\Downloads\Files\FSAWay-original_do_not_delete\FSAWay\bin\System.Web.Http.dll
+C:\Users\william\Downloads\Files\FSAWay-original_do_not_delete\FSAWay\bin\System.Web.Http.Owin.dll
+C:\Users\william\Downloads\Files\FSAWay-original_do_not_delete\FSAWay\bin\System.Web.Http.WebHost.dll
+C:\Users\william\Downloads\Files\FSAWay-original_do_not_delete\FSAWay\bin\System.Web.Mvc.dll
+C:\Users\william\Downloads\Files\FSAWay-original_do_not_delete\FSAWay\bin\System.Web.Optimization.dll
+C:\Users\william\Downloads\Files\FSAWay-original_do_not_delete\FSAWay\bin\System.Web.Razor.dll
+C:\Users\william\Downloads\Files\FSAWay-original_do_not_delete\FSAWay\bin\System.Web.WebPages.Deployment.dll
+C:\Users\william\Downloads\Files\FSAWay-original_do_not_delete\FSAWay\bin\System.Web.WebPages.dll
+C:\Users\william\Downloads\Files\FSAWay-original_do_not_delete\FSAWay\bin\System.Web.WebPages.Razor.dll
+C:\Users\william\Downloads\Files\FSAWay-original_do_not_delete\FSAWay\bin\WebActivatorEx.dll
+C:\Users\william\Downloads\Files\FSAWay-original_do_not_delete\FSAWay\bin\WebGrease.dll
+C:\Users\william\Downloads\Files\FSAWay-original_do_not_delete\FSAWay\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\william\Downloads\Files\FSAWay-original_do_not_delete\FSAWay\bin\Ninject.xml
+C:\Users\william\Downloads\Files\FSAWay-original_do_not_delete\FSAWay\bin\Ninject.Web.Common.xml
+C:\Users\william\Downloads\Files\FSAWay-original_do_not_delete\FSAWay\bin\Ninject.Web.WebApi.xml
+C:\Users\william\Downloads\Files\FSAWay-original_do_not_delete\FSAWay\bin\Ninject.Web.WebApi.WebHost.xml
+C:\Users\william\Downloads\Files\FSAWay-original_do_not_delete\FSAWay\bin\Newtonsoft.Json.xml
+C:\Users\william\Downloads\Files\FSAWay-original_do_not_delete\FSAWay\bin\System.Net.Http.Formatting.xml
+C:\Users\william\Downloads\Files\FSAWay-original_do_not_delete\FSAWay\bin\System.Web.Helpers.xml
+C:\Users\william\Downloads\Files\FSAWay-original_do_not_delete\FSAWay\bin\System.Web.Http.xml
+C:\Users\william\Downloads\Files\FSAWay-original_do_not_delete\FSAWay\bin\System.Web.Http.WebHost.xml
+C:\Users\william\Downloads\Files\FSAWay-original_do_not_delete\FSAWay\bin\System.Web.Mvc.xml
+C:\Users\william\Downloads\Files\FSAWay-original_do_not_delete\FSAWay\bin\System.Web.Optimization.xml
+C:\Users\william\Downloads\Files\FSAWay-original_do_not_delete\FSAWay\bin\System.Web.Razor.xml
+C:\Users\william\Downloads\Files\FSAWay-original_do_not_delete\FSAWay\bin\System.Web.WebPages.xml
+C:\Users\william\Downloads\Files\FSAWay-original_do_not_delete\FSAWay\bin\System.Web.WebPages.Deployment.xml
+C:\Users\william\Downloads\Files\FSAWay-original_do_not_delete\FSAWay\bin\System.Web.WebPages.Razor.xml
+C:\Users\william\Downloads\Files\FSAWay-original_do_not_delete\FSAWay\bin\Antlr3.Runtime.pdb
+C:\Users\william\Downloads\Files\FSAWay-original_do_not_delete\FSAWay\bin\EntityFramework.xml
+C:\Users\william\Downloads\Files\FSAWay-original_do_not_delete\FSAWay\bin\EntityFramework.SqlServer.xml
+C:\Users\william\Downloads\Files\FSAWay-original_do_not_delete\FSAWay\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\william\Downloads\Files\FSAWay-original_do_not_delete\FSAWay\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\william\Downloads\Files\FSAWay-original_do_not_delete\FSAWay\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\william\Downloads\Files\FSAWay-original_do_not_delete\FSAWay\bin\Microsoft.Owin.xml
+C:\Users\william\Downloads\Files\FSAWay-original_do_not_delete\FSAWay\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\william\Downloads\Files\FSAWay-original_do_not_delete\FSAWay\bin\Microsoft.Owin.Security.xml
+C:\Users\william\Downloads\Files\FSAWay-original_do_not_delete\FSAWay\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\william\Downloads\Files\FSAWay-original_do_not_delete\FSAWay\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\william\Downloads\Files\FSAWay-original_do_not_delete\FSAWay\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\william\Downloads\Files\FSAWay-original_do_not_delete\FSAWay\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\william\Downloads\Files\FSAWay-original_do_not_delete\FSAWay\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\william\Downloads\Files\FSAWay-original_do_not_delete\FSAWay\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\william\Downloads\Files\FSAWay-original_do_not_delete\FSAWay\bin\System.Web.Http.Owin.xml
+C:\Users\william\Downloads\Files\FSAWay-original_do_not_delete\FSAWay\obj\Debug\FSAWay.csprojResolveAssemblyReference.cache
+C:\Users\william\Downloads\Files\FSAWay-original_do_not_delete\FSAWay\obj\Debug\FSAWay.Migrations.start.resources
+C:\Users\william\Downloads\Files\FSAWay-original_do_not_delete\FSAWay\obj\Debug\FsaWayApp.Migrations.newest.resources
+C:\Users\william\Downloads\Files\FSAWay-original_do_not_delete\FSAWay\obj\Debug\FSAWay.csproj.GenerateResource.Cache
+C:\Users\william\Downloads\Files\FSAWay-original_do_not_delete\FSAWay\obj\Debug\CoderCamps-SPA.dll
+C:\Users\william\Downloads\Files\FSAWay-original_do_not_delete\FSAWay\obj\Debug\CoderCamps-SPA.pdb
+C:\Users\william\Desktop\FSAWay-Final\FSAWay\bin\roslyn\csc.exe
+C:\Users\william\Desktop\FSAWay-Final\FSAWay\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\william\Desktop\FSAWay-Final\FSAWay\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\william\Desktop\FSAWay-Final\FSAWay\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\william\Desktop\FSAWay-Final\FSAWay\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\william\Desktop\FSAWay-Final\FSAWay\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\william\Desktop\FSAWay-Final\FSAWay\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\william\Desktop\FSAWay-Final\FSAWay\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\william\Desktop\FSAWay-Final\FSAWay\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\william\Desktop\FSAWay-Final\FSAWay\bin\roslyn\vbc.exe
+C:\Users\william\Desktop\FSAWay-Final\FSAWay\bin\roslyn\VBCSCompiler.exe
+C:\Users\william\Desktop\FSAWay-Final\FSAWay\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\william\Desktop\FSAWay-Final\FSAWay\bin\CoderCamps-SPA.dll.config
+C:\Users\william\Desktop\FSAWay-Final\FSAWay\bin\CoderCamps-SPA.dll
+C:\Users\william\Desktop\FSAWay-Final\FSAWay\bin\CoderCamps-SPA.pdb
+C:\Users\william\Desktop\FSAWay-Final\FSAWay\bin\Antlr3.Runtime.dll
+C:\Users\william\Desktop\FSAWay-Final\FSAWay\bin\EntityFramework.dll
+C:\Users\william\Desktop\FSAWay-Final\FSAWay\bin\EntityFramework.SqlServer.dll
+C:\Users\william\Desktop\FSAWay-Final\FSAWay\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\william\Desktop\FSAWay-Final\FSAWay\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\william\Desktop\FSAWay-Final\FSAWay\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\william\Desktop\FSAWay-Final\FSAWay\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\william\Desktop\FSAWay-Final\FSAWay\bin\Microsoft.Owin.dll
+C:\Users\william\Desktop\FSAWay-Final\FSAWay\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\william\Desktop\FSAWay-Final\FSAWay\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\william\Desktop\FSAWay-Final\FSAWay\bin\Microsoft.Owin.Security.dll
+C:\Users\william\Desktop\FSAWay-Final\FSAWay\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\william\Desktop\FSAWay-Final\FSAWay\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\william\Desktop\FSAWay-Final\FSAWay\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\william\Desktop\FSAWay-Final\FSAWay\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\william\Desktop\FSAWay-Final\FSAWay\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\william\Desktop\FSAWay-Final\FSAWay\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\william\Desktop\FSAWay-Final\FSAWay\bin\Newtonsoft.Json.dll
+C:\Users\william\Desktop\FSAWay-Final\FSAWay\bin\Ninject.dll
+C:\Users\william\Desktop\FSAWay-Final\FSAWay\bin\Ninject.Web.Common.dll
+C:\Users\william\Desktop\FSAWay-Final\FSAWay\bin\Ninject.Web.WebApi.dll
+C:\Users\william\Desktop\FSAWay-Final\FSAWay\bin\Ninject.Web.WebApi.WebHost.dll
+C:\Users\william\Desktop\FSAWay-Final\FSAWay\bin\Owin.dll
+C:\Users\william\Desktop\FSAWay-Final\FSAWay\bin\SendGrid.SmtpApi.dll
+C:\Users\william\Desktop\FSAWay-Final\FSAWay\bin\SendGridMail.dll
+C:\Users\william\Desktop\FSAWay-Final\FSAWay\bin\System.Net.Http.Formatting.dll
+C:\Users\william\Desktop\FSAWay-Final\FSAWay\bin\System.Web.Helpers.dll
+C:\Users\william\Desktop\FSAWay-Final\FSAWay\bin\System.Web.Http.dll
+C:\Users\william\Desktop\FSAWay-Final\FSAWay\bin\System.Web.Http.Owin.dll
+C:\Users\william\Desktop\FSAWay-Final\FSAWay\bin\System.Web.Http.WebHost.dll
+C:\Users\william\Desktop\FSAWay-Final\FSAWay\bin\System.Web.Mvc.dll
+C:\Users\william\Desktop\FSAWay-Final\FSAWay\bin\System.Web.Optimization.dll
+C:\Users\william\Desktop\FSAWay-Final\FSAWay\bin\System.Web.Razor.dll
+C:\Users\william\Desktop\FSAWay-Final\FSAWay\bin\System.Web.WebPages.Deployment.dll
+C:\Users\william\Desktop\FSAWay-Final\FSAWay\bin\System.Web.WebPages.dll
+C:\Users\william\Desktop\FSAWay-Final\FSAWay\bin\System.Web.WebPages.Razor.dll
+C:\Users\william\Desktop\FSAWay-Final\FSAWay\bin\WebActivatorEx.dll
+C:\Users\william\Desktop\FSAWay-Final\FSAWay\bin\WebGrease.dll
+C:\Users\william\Desktop\FSAWay-Final\FSAWay\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\william\Desktop\FSAWay-Final\FSAWay\bin\Ninject.xml
+C:\Users\william\Desktop\FSAWay-Final\FSAWay\bin\Ninject.Web.Common.xml
+C:\Users\william\Desktop\FSAWay-Final\FSAWay\bin\Ninject.Web.WebApi.xml
+C:\Users\william\Desktop\FSAWay-Final\FSAWay\bin\Ninject.Web.WebApi.WebHost.xml
+C:\Users\william\Desktop\FSAWay-Final\FSAWay\bin\Newtonsoft.Json.xml
+C:\Users\william\Desktop\FSAWay-Final\FSAWay\bin\System.Net.Http.Formatting.xml
+C:\Users\william\Desktop\FSAWay-Final\FSAWay\bin\System.Web.Helpers.xml
+C:\Users\william\Desktop\FSAWay-Final\FSAWay\bin\System.Web.Http.xml
+C:\Users\william\Desktop\FSAWay-Final\FSAWay\bin\System.Web.Http.WebHost.xml
+C:\Users\william\Desktop\FSAWay-Final\FSAWay\bin\System.Web.Mvc.xml
+C:\Users\william\Desktop\FSAWay-Final\FSAWay\bin\System.Web.Optimization.xml
+C:\Users\william\Desktop\FSAWay-Final\FSAWay\bin\System.Web.Razor.xml
+C:\Users\william\Desktop\FSAWay-Final\FSAWay\bin\System.Web.WebPages.xml
+C:\Users\william\Desktop\FSAWay-Final\FSAWay\bin\System.Web.WebPages.Deployment.xml
+C:\Users\william\Desktop\FSAWay-Final\FSAWay\bin\System.Web.WebPages.Razor.xml
+C:\Users\william\Desktop\FSAWay-Final\FSAWay\bin\Antlr3.Runtime.pdb
+C:\Users\william\Desktop\FSAWay-Final\FSAWay\bin\EntityFramework.xml
+C:\Users\william\Desktop\FSAWay-Final\FSAWay\bin\EntityFramework.SqlServer.xml
+C:\Users\william\Desktop\FSAWay-Final\FSAWay\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\william\Desktop\FSAWay-Final\FSAWay\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\william\Desktop\FSAWay-Final\FSAWay\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\william\Desktop\FSAWay-Final\FSAWay\bin\Microsoft.Owin.xml
+C:\Users\william\Desktop\FSAWay-Final\FSAWay\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\william\Desktop\FSAWay-Final\FSAWay\bin\Microsoft.Owin.Security.xml
+C:\Users\william\Desktop\FSAWay-Final\FSAWay\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\william\Desktop\FSAWay-Final\FSAWay\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\william\Desktop\FSAWay-Final\FSAWay\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\william\Desktop\FSAWay-Final\FSAWay\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\william\Desktop\FSAWay-Final\FSAWay\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\william\Desktop\FSAWay-Final\FSAWay\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\william\Desktop\FSAWay-Final\FSAWay\bin\System.Web.Http.Owin.xml
+C:\Users\william\Desktop\FSAWay-Final\FSAWay\obj\Debug\FSAWay.csprojResolveAssemblyReference.cache
+C:\Users\william\Desktop\FSAWay-Final\FSAWay\obj\Debug\FSAWay.Migrations.start.resources
+C:\Users\william\Desktop\FSAWay-Final\FSAWay\obj\Debug\FsaWayApp.Migrations.newest.resources
+C:\Users\william\Desktop\FSAWay-Final\FSAWay\obj\Debug\FSAWay.csproj.GenerateResource.Cache
+C:\Users\william\Desktop\FSAWay-Final\FSAWay\obj\Debug\CoderCamps-SPA.dll
+C:\Users\william\Desktop\FSAWay-Final\FSAWay\obj\Debug\CoderCamps-SPA.pdb
+C:\Users\william\Desktop\FSAWay-Final Copy\FSAWay\bin\roslyn\csc.exe
+C:\Users\william\Desktop\FSAWay-Final Copy\FSAWay\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\william\Desktop\FSAWay-Final Copy\FSAWay\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\william\Desktop\FSAWay-Final Copy\FSAWay\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\william\Desktop\FSAWay-Final Copy\FSAWay\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\william\Desktop\FSAWay-Final Copy\FSAWay\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\william\Desktop\FSAWay-Final Copy\FSAWay\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\william\Desktop\FSAWay-Final Copy\FSAWay\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\william\Desktop\FSAWay-Final Copy\FSAWay\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\william\Desktop\FSAWay-Final Copy\FSAWay\bin\roslyn\vbc.exe
+C:\Users\william\Desktop\FSAWay-Final Copy\FSAWay\bin\roslyn\VBCSCompiler.exe
+C:\Users\william\Desktop\FSAWay-Final Copy\FSAWay\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\william\Desktop\FSAWay-Final Copy\FSAWay\bin\CoderCamps-SPA.dll.config
+C:\Users\william\Desktop\FSAWay-Final Copy\FSAWay\bin\CoderCamps-SPA.dll
+C:\Users\william\Desktop\FSAWay-Final Copy\FSAWay\bin\CoderCamps-SPA.pdb
+C:\Users\william\Desktop\FSAWay-Final Copy\FSAWay\bin\Antlr3.Runtime.dll
+C:\Users\william\Desktop\FSAWay-Final Copy\FSAWay\bin\EntityFramework.dll
+C:\Users\william\Desktop\FSAWay-Final Copy\FSAWay\bin\EntityFramework.SqlServer.dll
+C:\Users\william\Desktop\FSAWay-Final Copy\FSAWay\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\william\Desktop\FSAWay-Final Copy\FSAWay\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\william\Desktop\FSAWay-Final Copy\FSAWay\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\william\Desktop\FSAWay-Final Copy\FSAWay\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\william\Desktop\FSAWay-Final Copy\FSAWay\bin\Microsoft.Owin.dll
+C:\Users\william\Desktop\FSAWay-Final Copy\FSAWay\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\william\Desktop\FSAWay-Final Copy\FSAWay\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\william\Desktop\FSAWay-Final Copy\FSAWay\bin\Microsoft.Owin.Security.dll
+C:\Users\william\Desktop\FSAWay-Final Copy\FSAWay\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\william\Desktop\FSAWay-Final Copy\FSAWay\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\william\Desktop\FSAWay-Final Copy\FSAWay\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\william\Desktop\FSAWay-Final Copy\FSAWay\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\william\Desktop\FSAWay-Final Copy\FSAWay\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\william\Desktop\FSAWay-Final Copy\FSAWay\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\william\Desktop\FSAWay-Final Copy\FSAWay\bin\Newtonsoft.Json.dll
+C:\Users\william\Desktop\FSAWay-Final Copy\FSAWay\bin\Ninject.dll
+C:\Users\william\Desktop\FSAWay-Final Copy\FSAWay\bin\Ninject.Web.Common.dll
+C:\Users\william\Desktop\FSAWay-Final Copy\FSAWay\bin\Ninject.Web.WebApi.dll
+C:\Users\william\Desktop\FSAWay-Final Copy\FSAWay\bin\Ninject.Web.WebApi.WebHost.dll
+C:\Users\william\Desktop\FSAWay-Final Copy\FSAWay\bin\Owin.dll
+C:\Users\william\Desktop\FSAWay-Final Copy\FSAWay\bin\SendGrid.SmtpApi.dll
+C:\Users\william\Desktop\FSAWay-Final Copy\FSAWay\bin\SendGridMail.dll
+C:\Users\william\Desktop\FSAWay-Final Copy\FSAWay\bin\System.Net.Http.Formatting.dll
+C:\Users\william\Desktop\FSAWay-Final Copy\FSAWay\bin\System.Web.Helpers.dll
+C:\Users\william\Desktop\FSAWay-Final Copy\FSAWay\bin\System.Web.Http.dll
+C:\Users\william\Desktop\FSAWay-Final Copy\FSAWay\bin\System.Web.Http.Owin.dll
+C:\Users\william\Desktop\FSAWay-Final Copy\FSAWay\bin\System.Web.Http.WebHost.dll
+C:\Users\william\Desktop\FSAWay-Final Copy\FSAWay\bin\System.Web.Mvc.dll
+C:\Users\william\Desktop\FSAWay-Final Copy\FSAWay\bin\System.Web.Optimization.dll
+C:\Users\william\Desktop\FSAWay-Final Copy\FSAWay\bin\System.Web.Razor.dll
+C:\Users\william\Desktop\FSAWay-Final Copy\FSAWay\bin\System.Web.WebPages.Deployment.dll
+C:\Users\william\Desktop\FSAWay-Final Copy\FSAWay\bin\System.Web.WebPages.dll
+C:\Users\william\Desktop\FSAWay-Final Copy\FSAWay\bin\System.Web.WebPages.Razor.dll
+C:\Users\william\Desktop\FSAWay-Final Copy\FSAWay\bin\WebActivatorEx.dll
+C:\Users\william\Desktop\FSAWay-Final Copy\FSAWay\bin\WebGrease.dll
+C:\Users\william\Desktop\FSAWay-Final Copy\FSAWay\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\william\Desktop\FSAWay-Final Copy\FSAWay\bin\Ninject.xml
+C:\Users\william\Desktop\FSAWay-Final Copy\FSAWay\bin\Ninject.Web.Common.xml
+C:\Users\william\Desktop\FSAWay-Final Copy\FSAWay\bin\Ninject.Web.WebApi.xml
+C:\Users\william\Desktop\FSAWay-Final Copy\FSAWay\bin\Ninject.Web.WebApi.WebHost.xml
+C:\Users\william\Desktop\FSAWay-Final Copy\FSAWay\bin\Newtonsoft.Json.xml
+C:\Users\william\Desktop\FSAWay-Final Copy\FSAWay\bin\System.Net.Http.Formatting.xml
+C:\Users\william\Desktop\FSAWay-Final Copy\FSAWay\bin\System.Web.Helpers.xml
+C:\Users\william\Desktop\FSAWay-Final Copy\FSAWay\bin\System.Web.Http.xml
+C:\Users\william\Desktop\FSAWay-Final Copy\FSAWay\bin\System.Web.Http.WebHost.xml
+C:\Users\william\Desktop\FSAWay-Final Copy\FSAWay\bin\System.Web.Mvc.xml
+C:\Users\william\Desktop\FSAWay-Final Copy\FSAWay\bin\System.Web.Optimization.xml
+C:\Users\william\Desktop\FSAWay-Final Copy\FSAWay\bin\System.Web.Razor.xml
+C:\Users\william\Desktop\FSAWay-Final Copy\FSAWay\bin\System.Web.WebPages.xml
+C:\Users\william\Desktop\FSAWay-Final Copy\FSAWay\bin\System.Web.WebPages.Deployment.xml
+C:\Users\william\Desktop\FSAWay-Final Copy\FSAWay\bin\System.Web.WebPages.Razor.xml
+C:\Users\william\Desktop\FSAWay-Final Copy\FSAWay\bin\Antlr3.Runtime.pdb
+C:\Users\william\Desktop\FSAWay-Final Copy\FSAWay\bin\EntityFramework.xml
+C:\Users\william\Desktop\FSAWay-Final Copy\FSAWay\bin\EntityFramework.SqlServer.xml
+C:\Users\william\Desktop\FSAWay-Final Copy\FSAWay\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\william\Desktop\FSAWay-Final Copy\FSAWay\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\william\Desktop\FSAWay-Final Copy\FSAWay\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\william\Desktop\FSAWay-Final Copy\FSAWay\bin\Microsoft.Owin.xml
+C:\Users\william\Desktop\FSAWay-Final Copy\FSAWay\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\william\Desktop\FSAWay-Final Copy\FSAWay\bin\Microsoft.Owin.Security.xml
+C:\Users\william\Desktop\FSAWay-Final Copy\FSAWay\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\william\Desktop\FSAWay-Final Copy\FSAWay\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\william\Desktop\FSAWay-Final Copy\FSAWay\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\william\Desktop\FSAWay-Final Copy\FSAWay\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\william\Desktop\FSAWay-Final Copy\FSAWay\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\william\Desktop\FSAWay-Final Copy\FSAWay\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\william\Desktop\FSAWay-Final Copy\FSAWay\bin\System.Web.Http.Owin.xml
+C:\Users\william\Desktop\FSAWay-Final Copy\FSAWay\obj\Debug\FSAWay.csprojResolveAssemblyReference.cache
+C:\Users\william\Desktop\FSAWay-Final Copy\FSAWay\obj\Debug\FSAWay.Migrations.start.resources
+C:\Users\william\Desktop\FSAWay-Final Copy\FSAWay\obj\Debug\FsaWayApp.Migrations.newest.resources
+C:\Users\william\Desktop\FSAWay-Final Copy\FSAWay\obj\Debug\FSAWay.csproj.GenerateResource.Cache
+C:\Users\william\Desktop\FSAWay-Final Copy\FSAWay\obj\Debug\CoderCamps-SPA.dll
+C:\Users\william\Desktop\FSAWay-Final Copy\FSAWay\obj\Debug\CoderCamps-SPA.pdb

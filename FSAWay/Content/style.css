@@ -15,10 +15,14 @@ div.jumbotron.row4 {
 }
 
 div.container-fluid {
-    background-color: #74c4da;
+    background-color: #1486a6;
+    
     
 }
 
+.navbar-brand {
+    color:white;
+}
 
 .jumbotron.row1 {
     background-color:#1486a6;

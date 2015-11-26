@@ -1,0 +1,38 @@
+﻿body {
+ font-family:Tahoma;
+
+}
+
+
+.container {
+    background-color:#ecf3ff;
+
+}
+
+div.jumbotron.row4 {
+    background-color:#ecf3ff;
+    color:#1486a6;
+}
+
+div.container-fluid {
+    background-color: #74c4da;
+    
+}
+
+
+.jumbotron.row1 {
+    background-color:#1486a6;
+    color:white;
+}
+
+.jumbotron.row2 {
+    background-color:#74c4da;
+    color:white;
+}
+
+.jumbotron.row3 {
+    background-color:goldenrod;
+    color:white;
+   
+}
+
